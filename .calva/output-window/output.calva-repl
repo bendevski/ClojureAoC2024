@@ -47874,3 +47874,469 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 689
 clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+"xmul(2,4)%&mul[3,7]!@^do_not_mul(5,5)+mul(32,64]then(mul(11,8)mul(8,5))"
+clj꞉user꞉> 
+#'user/valids
+clj꞉user꞉> 
+("mul(2,4)" "mul(5,5)" "mul(11,8)" "mul(8,5)")
+clj꞉user꞉> 
+#'user/valid_int_strings
+clj꞉user꞉> 
+(("2,4") ("5,5") ("11,8") ("8,5"))
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:1:8841).
+; Unable to resolve symbol: string_pairs in this context
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+(("2" "4") ("5" "5") ("11" "8") ("8" "5"))
+clj꞉user꞉> 
+; Execution error (ClassCastException) at java.lang.Class/cast (Class.java:4139).
+; Cannot cast clojure.lang.LazySeq to java.lang.Number
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11656$fn (form-init11515184500665957990.clj:10).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:10:22).
+; Unable to find static field: parseInt in class java.lang.Integer
+clj꞉user꞉> 
+#'user/num_pairs
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/fn (form-init11515184500665957990.clj:10).
+; class clojure.lang.Cons cannot be cast to class java.lang.String (clojure.lang.Cons is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/fn (form-init11515184500665957990.clj:9).
+; class clojure.lang.Cons cannot be cast to class java.lang.String (clojure.lang.Cons is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+; Syntax error reading source at (REPL:10:29).
+; Nested #()s are not allowed
+clj꞉user꞉> 
+#'user/strings_to_ints
+clj꞉user꞉> 
+#'user/num_pairs
+clj꞉user꞉> 
+()
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+#'user/num_pairs
+clj꞉user꞉> 
+((2 4) (5 5) (11 8) (8 5))
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11715$fn (form-init11515184500665957990.clj:12).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+161
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/valids
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+#'user/strings_to_ints
+clj꞉user꞉> 
+#'user/num_pairs
+clj꞉user꞉> 
+164730528
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+("mul(234,359)"
+ "mul(260,344)"
+ "mul(87,298)"
+ "mul(407,173)"
+ "mul(763,519)"
+ "mul(258,409)"
+ "mul(703,155)"
+ "mul(423,685)"
+ "mul(647,758)"
+ "mul(595,333)"
+ "mul(228,760)"
+ "mul(403,912)"
+ "mul(513,464)"
+ "mul(154,341)"
+ "mul(469,16)"
+ "mul(328,795)"
+ "mul(547,469)"
+ "mul(365,823)"
+ "mul(211,19)"
+ "mul(816,990)"
+ "mul(698,62)"
+ "mul(485,158)"
+ "mul(736,421)"
+ "mul(817,275)"
+ "do()"
+ "mul(909,873)"
+ "don't()"
+ "mul(212,255)"
+ "mul(707,897)"
+ "mul(837,220)"
+ "mul(560,935)"
+ "mul(932,628)"
+ "mul(860,85)"
+ "mul(189,383)"
+ "mul(219,523)"
+ "mul(950,9)"
+ "mul(388,844)"
+ "mul(66,658)"
+ "mul(871,390)"
+ "mul(587,687)"
+ "mul(905,131)"
+ "don't()"
+ "mul(926,945)"
+ "mul(180,934)"
+ "don't()"
+ "mul(736,865)"
+ "mul(662,142)"
+ "mul(108,216)"
+ "mul(222,569)"
+ "mul(669,307)"
+ ...)
+clj꞉user꞉> (re-seq #"\d+" "hullo")
+nil
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:1:8841).
+; Unable to resolve symbol: entry in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:16:33).
+; Unable to resolve symbol: entry in this context
+clj꞉user꞉> 
+#'user/is_do_nt?
+clj꞉user꞉> ((1,2,3,4) 2)
+; Execution error (ClassCastException) at user/eval11762 (form-init11515184500665957990.clj:48018).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> ({1,2,3,4} 2)
+nil
+clj꞉user꞉> ({1,2,3,4} 3)
+4
+clj꞉user꞉> 
+clojure.lang.PersistentArrayMap
+clj꞉user꞉> ((1,2,3,4) 1)
+; Execution error (ClassCastException) at user/eval11773 (form-init11515184500665957990.clj:48027).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/to_process?
+clj꞉user꞉> 
+#'user/calculate_final_number
+clj꞉user꞉> 
+#'user/num_pairs
+clj꞉user꞉> 
+#'user/strings_to_ints
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+#'user/valids
+clj꞉user꞉> 
+#function[user/calculate-final-number]
+clj꞉user꞉> 
+("mul(234,359)"
+ "mul(260,344)"
+ "mul(87,298)"
+ "mul(407,173)"
+ "mul(763,519)"
+ "mul(258,409)"
+ "mul(703,155)"
+ "mul(423,685)"
+ "mul(647,758)"
+ "mul(595,333)"
+ "mul(228,760)"
+ "mul(403,912)"
+ "mul(513,464)"
+ "mul(154,341)"
+ "mul(469,16)"
+ "mul(328,795)"
+ "mul(547,469)"
+ "mul(365,823)"
+ "mul(211,19)"
+ "mul(816,990)"
+ "mul(698,62)"
+ "mul(485,158)"
+ "mul(736,421)"
+ "mul(817,275)"
+ "mul(909,873)"
+ "mul(212,255)"
+ "mul(707,897)"
+ "mul(837,220)"
+ "mul(560,935)"
+ "mul(932,628)"
+ "mul(860,85)"
+ "mul(189,383)"
+ "mul(219,523)"
+ "mul(950,9)"
+ "mul(388,844)"
+ "mul(66,658)"
+ "mul(871,390)"
+ "mul(587,687)"
+ "mul(905,131)"
+ "mul(926,945)"
+ "mul(180,934)"
+ "mul(736,865)"
+ "mul(662,142)"
+ "mul(108,216)"
+ "mul(222,569)"
+ "mul(669,307)"
+ "mul(902,394)"
+ "mul(949,576)"
+ "mul(193,521)"
+ "mul(319,755)"
+ ...)
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11798 (form-init11515184500665957990.clj:13).
+; class clojure.lang.Cons cannot be cast to class clojure.lang.IFn (clojure.lang.Cons and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ArityException) at user/eval11803 (form-init11515184500665957990.clj:14).
+; Wrong number of args (0) passed to: user/string-pairs
+clj꞉user꞉> 
+164730528
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:23:7).
+; Unable to resolve symbol: include in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:23:7).
+; Unable to resolve symbol: include in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:23:7).
+; Unable to resolve symbol: include in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:23:7).
+; Unable to resolve symbol: include in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:23:7).
+; Unable to resolve symbol: include in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d3.clj:27:12).
+; Unable to resolve symbol: % in this context
+clj꞉user꞉> 
+#'user/process_entry
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11857 (form-init11515184500665957990.clj:28).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11862 (form-init11515184500665957990.clj:28).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11867 (form-init11515184500665957990.clj:29).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/process_entry
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11873 (form-init11515184500665957990.clj:28).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/valids
+clj꞉user꞉> 
+#'user/valids
+clj꞉user꞉> 
+#'user/string_pairs
+clj꞉user꞉> 
+#'user/strings_to_ints
+clj꞉user꞉> 
+#'user/num_pairs
+clj꞉user꞉> 
+#'user/calculate_final_number
+clj꞉user꞉> 
+164730528
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+#'user/is_do_nt?
+clj꞉user꞉> 
+#'user/to_process?
+clj꞉user꞉> 
+#'user/process_entry
+clj꞉user꞉> 
+#'user/process_entry
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11906 (form-init11515184500665957990.clj:28).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/process-entry (form-init11515184500665957990.clj:23).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.CharSequence (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.CharSequence is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+2
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+12
+clj꞉user꞉> 
+; Syntax error compiling if at (src/clojure_2024/d3.clj:30:5).
+; Too many arguments to if
+clj꞉user꞉> 
+; Syntax error (IllegalArgumentException) compiling recur at (src/clojure_2024/d3.clj:31:7).
+; Mismatched argument count to recur, expected: 3 args, got: 1
+clj꞉user꞉> 
+#'user/process_entries
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+("mul(234,359)"
+ "mul(260,344)"
+ "mul(87,298)"
+ "mul(407,173)"
+ "mul(763,519)"
+ "mul(258,409)"
+ "mul(703,155)"
+ "mul(423,685)"
+ "mul(647,758)"
+ "mul(595,333)"
+ "mul(228,760)"
+ "mul(403,912)"
+ "mul(513,464)"
+ "mul(154,341)"
+ "mul(469,16)"
+ "mul(328,795)"
+ "mul(547,469)"
+ "mul(365,823)"
+ "mul(211,19)"
+ "mul(816,990)"
+ "mul(698,62)"
+ "mul(485,158)"
+ "mul(736,421)"
+ "mul(817,275)"
+ "do()"
+ "mul(909,873)"
+ "don't()"
+ "mul(212,255)"
+ "mul(707,897)"
+ "mul(837,220)"
+ "mul(560,935)"
+ "mul(932,628)"
+ "mul(860,85)"
+ "mul(189,383)"
+ "mul(219,523)"
+ "mul(950,9)"
+ "mul(388,844)"
+ "mul(66,658)"
+ "mul(871,390)"
+ "mul(587,687)"
+ "mul(905,131)"
+ "don't()"
+ "mul(926,945)"
+ "mul(180,934)"
+ "don't()"
+ "mul(736,865)"
+ "mul(662,142)"
+ "mul(108,216)"
+ "mul(222,569)"
+ "mul(669,307)"
+ ...)
+clj꞉user꞉> 
+#'user/process_entries
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Syntax error (UnsupportedOperationException) compiling recur at (src/clojure_2024/d3.clj:32:7).
+; Can only recur from tail position
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+#'user/process_entries
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; SPY <-13> /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;  At Code Site -13, will save scope with locals [entries include acc]
+; SPY <-14> /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;  At Code Site -14, will save scope with locals [entries include acc]
+#'user/process_entries
+clj꞉user꞉> 
+; SPY [7873 -14] /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;   At Execution Point 7873 of Code Site -14, saved scope with locals [entries include acc]
+; SPY [7873 -14] /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+; entries
+; =>
+; ("mul(2,4)" "mul(5,5)" "mul(11,8)" "mul(8,5)")
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+("mul(2,4)" "mul(5,5)" "mul(11,8)" "mul(8,5)")
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+("mul(2,4)" "mul(5,5)" "mul(11,8)" "mul(8,5)")
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+("mul(2,4)" "don't()" "mul(5,5)" "mul(11,8)" "do()" "mul(8,5)")
+clj꞉user꞉> 
+; SPY [7874 -14] /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;   At Execution Point 7874 of Code Site -14, saved scope with locals [entries include acc]
+; SPY [7874 -14] /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+; entries
+; =>
+; ("mul(2,4)" "don't()" "mul(5,5)" "mul(11,8)" "do()" "mul(8,5)")
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+88
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+; SPY <-15> /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;  At Code Site -15, will save scope with locals [entries include acc]
+; SPY <-16> /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;  At Code Site -16, will save scope with locals [entries include acc]
+#'user/process_entries
+clj꞉user꞉> 
+; SPY [7875 -16] /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+;   At Execution Point 7875 of Code Site -16, saved scope with locals [entries include acc]
+; SPY [7875 -16] /Users/fung/Documents/GAOC/clojure-2024/src/clojure_2024/d3.clj:30 
+; entries
+; =>
+; ("mul(2,4)" "don't()" "mul(5,5)" "mul(11,8)" "do()" "mul(8,5)")
+; Execution error (ClassCastException) at user/process-entries (form-init11515184500665957990.clj:33).
+; class java.lang.Boolean cannot be cast to class clojure.lang.IFn (java.lang.Boolean is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/process_entry
+clj꞉user꞉> 
+#'user/process_entries
+clj꞉user꞉> 
+48
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/process_entry
+clj꞉user꞉> 
+#'user/process_entries
+clj꞉user꞉> 
+48
+clj꞉user꞉> 
+#'user/valids2
+clj꞉user꞉> 
+70478672
+clj꞉user꞉> 
