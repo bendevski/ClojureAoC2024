@@ -47772,3 +47772,105 @@ clj꞉user꞉> 
 ; (27)
 660
 clj꞉user꞉> 
+#'user/get_direction
+clj꞉user꞉> 
+#'user/valid_magnitude
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/is_sequence_safe
+clj꞉user꞉> 
+660
+clj꞉user꞉> 
+(["7" "6" "4" "2" "1"]
+ ["1" "2" "7" "8" "9"]
+ ["9" "7" "6" "2" "1"]
+ ["1" "3" "2" "4" "5"]
+ ["8" "6" "4" "4" "1"]
+ ["1" "3" "6" "7" "9"])
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d2.clj:29:14).
+; Unable to resolve symbol: parse_string_seq in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d2.clj:29:14).
+; Unable to resolve symbol: parse_string_seq in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d2.clj:29:14).
+; Unable to resolve symbol: parse_string_seq in this context
+clj꞉user꞉> 
+#'user/parse_string_seq
+clj꞉user꞉> 
+((7 6 4 2 1) (1 2 7 8 9) (9 7 6 2 1) (1 3 2 4 5) (8 6 4 4 1) (1 3 6 7 9))
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d2.clj:1:8841).
+; Can't take value of a macro: #'clojure.core/->>
+clj꞉user꞉> 
+#function[clojure.core/println]
+clj꞉user꞉> 
+((7 6 4 2 1) (1 2 7 8 9) (9 7 6 2 1) (1 3 2 4 5) (8 6 4 4 1) (1 3 6 7 9))
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+((7 6 4 2 1) (1 2 7 8 9) (9 7 6 2 1) (1 3 2 4 5) (8 6 4 4 1) (1 3 6 7 9))
+clj꞉user꞉> 
+#'user/get_permutations
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: clojure.core$seq__5467
+clj꞉user꞉> 
+(((1 2 7 8 9) (9 7 6 2 1) (1 3 2 4 5) (8 6 4 4 1) (1 3 6 7 9))
+ ((7 6 4 2 1) (9 7 6 2 1) (1 3 2 4 5) (8 6 4 4 1) (1 3 6 7 9))
+ ((7 6 4 2 1) (1 2 7 8 9) (1 3 2 4 5) (8 6 4 4 1) (1 3 6 7 9))
+ ((7 6 4 2 1) (1 2 7 8 9) (9 7 6 2 1) (8 6 4 4 1) (1 3 6 7 9))
+ ((7 6 4 2 1) (1 2 7 8 9) (9 7 6 2 1) (1 3 2 4 5) (1 3 6 7 9))
+ ((7 6 4 2 1) (1 2 7 8 9) (9 7 6 2 1) (1 3 2 4 5) (8 6 4 4 1)))
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+(((6 4 2 1) (7 4 2 1) (7 6 2 1) (7 6 4 1) (7 6 4 2))
+ ((2 7 8 9) (1 7 8 9) (1 2 8 9) (1 2 7 9) (1 2 7 8))
+ ((7 6 2 1) (9 6 2 1) (9 7 2 1) (9 7 6 1) (9 7 6 2))
+ ((3 2 4 5) (1 2 4 5) (1 3 4 5) (1 3 2 5) (1 3 2 4))
+ ((6 4 4 1) (8 4 4 1) (8 6 4 1) (8 6 4 1) (8 6 4 4))
+ ((3 6 7 9) (1 6 7 9) (1 3 7 9) (1 3 6 9) (1 3 6 7)))
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+#function[clojure.core/map/fn--5931]
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+((true true false true true)
+ (false false false false false)
+ (false false false false false)
+ (false true true false false)
+ (false false true true false)
+ (true false false true true))
+clj꞉user꞉> 
+; Execution error (ArityException) at user/fn (form-init11515184500665957990.clj:29).
+; Wrong number of args (2) passed to: user/fn--11524/fn--11529
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+(true nil nil true true true)
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+#'user/q2_input
+clj꞉user꞉> 
+689
+clj꞉user꞉> 
