@@ -29930,3 +29930,243 @@ clj꞉user꞉> 
 ; (nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil nil)
 4407
 clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/mapped
+clj꞉user꞉> 
+["....#....."
+ ".........#"
+ ".........."
+ "..#......."
+ ".......#.."
+ ".........."
+ ".#..^....."
+ "........#."
+ "#........."
+ "......#..."]
+clj꞉user꞉> 
+#'user/get_starting_location
+clj꞉user꞉> 
+#'user/start
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/get_starting_location
+clj꞉user꞉> 
+#'user/start
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+["....#....."
+ ".........#"
+ ".........."
+ "..#......."
+ ".......#.."
+ ".........."
+ ".#..^....."
+ "........#."
+ "#........."
+ "......#..."]
+clj꞉user꞉> 
+#'user/get_starting_location
+clj꞉user꞉> 
+#'user/start
+clj꞉user꞉> 
+([6 4])
+clj꞉user꞉> 
+#'user/get_starting_location
+clj꞉user꞉> 
+#'user/start
+clj꞉user꞉> 
+[6 4]
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d6.clj:16:12).
+; Unable to resolve symbol: grid in this context
+clj꞉user꞉> 
+[6 4]
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+[6 4]
+clj꞉user꞉> 
+#'user/next_direction
+clj꞉user꞉> 
+[0 -1]
+clj꞉user꞉> 
+[1 0]
+clj꞉user꞉> 
+#'user/in_bounds?
+clj꞉user꞉> 
+#'user/next_direction
+clj꞉user꞉> 
+#'user/next_state
+clj꞉user꞉> 
+#'user/in_bounds?
+clj꞉user꞉> 
+#'user/next_state
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d6.clj:48:22).
+; Unable to resolve symbol: get_next_state in this context
+clj꞉user꞉> 
+#'user/get_next_state
+clj꞉user꞉> 
+#'user/walk
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/walk (form-init15067679637176296696.clj:45).
+; class java.lang.String cannot be cast to class clojure.lang.Associative (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.Associative is in unnamed module of loader 'app')
+clj꞉user꞉> 
+["....#....."
+ ".........#"
+ ".........."
+ "..#......."
+ ".......#.."
+ ".........."
+ ".#..^....."
+ "........#."
+ "#........."
+ "......#..."]
+clj꞉user꞉> 
+#'user/get_next_state
+clj꞉user꞉> 
+#'user/walk
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/walk (form-init15067679637176296696.clj:45).
+; class java.lang.String cannot be cast to class clojure.lang.Associative (java.lang.String is in module java.base of loader 'bootstrap'; clojure.lang.Associative is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+[[\. \. \. \. \# \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \#]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \. \# \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \# \. \.]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \# \. \. \^ \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \# \.]
+ [\# \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \# \. \. \.]]
+clj꞉user꞉> 
+[[\. \. \. \. \# \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \#]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \. \# \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \# \. \.]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \# \. \. \W \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \# \.]
+ [\# \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \# \. \. \.]]
+clj꞉user꞉> 
+[[5 4] [-1 0]]
+clj꞉user꞉> 
+[[\. \. \. \. \# \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \#]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \. \# \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \# \. \.]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \# \. \. \W \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \# \.]
+ [\# \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \# \. \. \.]]
+clj꞉user꞉> 
+#'user/get_next_state
+clj꞉user꞉> 
+#'user/walk
+clj꞉user꞉> 
+[[\. \. \. \. \# \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \#]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \. \# \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \# \. \.]
+ [\. \. \. \. \. \. \. \. \. \.]
+ [\. \# \. \. \W \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \# \.]
+ [\# \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \# \. \. \.]]
+clj꞉user꞉> 
+; Execution error (ArityException) at user/next-state (form-init15067679637176296696.clj:33).
+; Wrong number of args (0) passed to: clojure.lang.PersistentVector
+clj꞉user꞉> 
+[[5 4] [-1 0]]
+clj꞉user꞉> 
+[5 4]
+clj꞉user꞉> 
+[-1 0]
+clj꞉user꞉> 
+#'user/walk
+clj꞉user꞉> 
+[[\. \. \. \. \# \. \. \. \. \.]
+ [\. \. \. \. \W \W \W \W \W \#]
+ [\. \. \. \. \W \. \. \. \W \.]
+ [\. \. \# \. \W \. \. \. \W \.]
+ [\. \. \W \W \W \W \W \# \W \.]
+ [\. \. \W \. \W \. \W \. \W \.]
+ [\. \# \W \W \W \W \W \W \W \.]
+ [\. \W \W \W \W \W \W \W \# \.]
+ [\# \W \W \W \W \W \W \W \. \.]
+ [\. \. \. \. \. \. \# \W \. \.]]
+clj꞉user꞉> 
+#'user/walked_grid
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d6.clj:53:37).
+; Unable to resolve symbol: % in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d6.clj:53:37).
+; Unable to resolve symbol: % in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d6.clj:53:37).
+; Unable to resolve symbol: % in this context
+clj꞉user꞉> 
+#'user/filter_Ws
+clj꞉user꞉> 
+#'user/count_walked
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/count-walked (form-init15067679637176296696.clj:54).
+; class user$count_walked$fn__11915 cannot be cast to class java.lang.Number (user$count_walked$fn__11915 is in unnamed module of loader clojure.lang.DynamicClassLoader @3552d3fc; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/count_walked
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/count-walked (form-init15067679637176296696.clj:54).
+; class user$count_walked$fn__11941 cannot be cast to class java.lang.Number (user$count_walked$fn__11941 is in unnamed module of loader clojure.lang.DynamicClassLoader @4ee6c00f; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/count_walked
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/count-walked (form-init15067679637176296696.clj:54).
+; class user$count_walked$fn__11967 cannot be cast to class java.lang.Number (user$count_walked$fn__11967 is in unnamed module of loader clojure.lang.DynamicClassLoader @289cc28a; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+(()
+ (\W \W \W \W \W)
+ (\W \W)
+ (\W \W)
+ (\W \W \W \W \W \W)
+ (\W \W \W \W)
+ (\W \W \W \W \W \W \W)
+ (\W \W \W \W \W \W \W)
+ (\W \W \W \W \W \W \W)
+ (\W))
+clj꞉user꞉> 
+#'user/count_walked
+clj꞉user꞉> 
+41
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/start
+clj꞉user꞉> 
+#'user/walk
+clj꞉user꞉> 
+#'user/walked_grid
+clj꞉user꞉> 
+5145
+clj꞉user꞉> 
