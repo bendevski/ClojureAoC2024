@@ -48340,3 +48340,3382 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 70478672
 clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+"MMMSXXMASM\nMSAMXMSMSA\nAMXSXMAAMM\nMSAMASMSMX\nXMASAMXAMM\nXXAMMXXAMA\nSMSMSASXSS\nSAXAMASAAA\nMAMMMXMMMM\nMXMXAXMASX"
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+("XMAS" "XMAS" "XMAS")
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+3
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+["MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"]
+clj꞉user꞉> 
+#'user/transpose
+clj꞉user꞉> 
+[[\M \M \A \M \X \X \S \S \M \M]
+ [\M \S \M \S \M \X \M \A \A \X]
+ [\M \A \X \A \A \A \S \X \M \M]
+ [\S \M \S \M \S \M \M \A \M \X]
+ [\X \X \X \A \A \M \S \M \M \A]
+ [\X \M \M \S \M \X \A \A \X \X]
+ [\M \S \A \M \X \X \S \S \M \M]
+ [\A \M \A \S \A \A \X \A \M \A]
+ [\S \S \M \M \M \M \S \A \M \S]
+ [\M \A \M \X \M \A \S \A \M \X]]
+clj꞉user꞉> 
+#'user/transpose
+clj꞉user꞉> 
+; Execution error (ArityException) at user/transpose (form-init11515184500665957990.clj:5).
+; Wrong number of args (10) passed to: clojure.string/join
+clj꞉user꞉> 
+#'user/transpose
+clj꞉user꞉> 
+("MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX")
+clj꞉user꞉> 
+#'user/transpose
+clj꞉user꞉> 
+("MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX")
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval12062 (form-init11515184500665957990.clj:11).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/diagonals (form-init11515184500665957990.clj:11).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+([0 [[0 0]]]
+ [7 [[0 7] [1 6] [2 5] [3 4] [4 3] [5 2] [6 1] [7 0]]]
+ [1 [[0 1] [1 0]]]
+ [4 [[0 4] [1 3] [2 2] [3 1] [4 0]]]
+ [15 [[6 9] [7 8] [8 7] [9 6]]]
+ [13 [[4 9] [5 8] [6 7] [7 6] [8 5] [9 4]]]
+ [6 [[0 6] [1 5] [2 4] [3 3] [4 2] [5 1] [6 0]]]
+ [17 [[8 9] [9 8]]]
+ [3 [[0 3] [1 2] [2 1] [3 0]]]
+ [12 [[3 9] [4 8] [5 7] [6 6] [7 5] [8 4] [9 3]]]
+ [2 [[0 2] [1 1] [2 0]]]
+ [11 [[2 9] [3 8] [4 7] [5 6] [6 5] [7 4] [8 3] [9 2]]]
+ [9 [[0 9] [1 8] [2 7] [3 6] [4 5] [5 4] [6 3] [7 2] [8 1] [9 0]]]
+ [5 [[0 5] [1 4] [2 3] [3 2] [4 1] [5 0]]]
+ [14 [[5 9] [6 8] [7 7] [8 6] [9 5]]]
+ [16 [[7 9] [8 8] [9 7]]]
+ [10 [[1 9] [2 8] [3 7] [4 6] [5 5] [6 4] [7 3] [8 2] [9 1]]]
+ [18 [[9 9]]]
+ [8 [[0 8] [1 7] [2 6] [3 5] [4 4] [5 3] [6 2] [7 1] [8 0]]]
+ [0 [[0 0] [1 1] [2 2] [3 3] [4 4] [5 5] [6 6] [7 7] [8 8] [9 9]]]
+ [-4 [[0 4] [1 5] [2 6] [3 7] [4 8] [5 9]]]
+ [7 [[7 0] [8 1] [9 2]]]
+ [1 [[1 0] [2 1] [3 2] [4 3] [5 4] [6 5] [7 6] [8 7] [9 8]]]
+ [-2 [[0 2] [1 3] [2 4] [3 5] [4 6] [5 7] [6 8] [7 9]]]
+ [4 [[4 0] [5 1] [6 2] [7 3] [8 4] [9 5]]]
+ [-1 [[0 1] [1 2] [2 3] [3 4] [4 5] [5 6] [6 7] [7 8] [8 9]]]
+ [-8 [[0 8] [1 9]]]
+ [-6 [[0 6] [1 7] [2 8] [3 9]]]
+ [-3 [[0 3] [1 4] [2 5] [3 6] [4 7] [5 8] [6 9]]]
+ [6 [[6 0] [7 1] [8 2] [9 3]]]
+ [3 [[3 0] [4 1] [5 2] [6 3] [7 4] [8 5] [9 6]]]
+ [2 [[2 0] [3 1] [4 2] [5 3] [6 4] [7 5] [8 6] [9 7]]]
+ [-7 [[0 7] [1 8] [2 9]]]
+ [9 [[9 0]]]
+ [5 [[5 0] [6 1] [7 2] [8 3] [9 4]]]
+ [-9 [[0 9]]]
+ [-5 [[0 5] [1 6] [2 7] [3 8] [4 9]]]
+ [8 [[8 0] [9 1]]])
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+([0 [[0 0]]]
+ [7 [[0 7] [1 6] [2 5] [3 4] [4 3] [5 2] [6 1] [7 0]]]
+ [1 [[0 1] [1 0]]]
+ [4 [[0 4] [1 3] [2 2] [3 1] [4 0]]]
+ [15 [[6 9] [7 8] [8 7] [9 6]]]
+ [13 [[4 9] [5 8] [6 7] [7 6] [8 5] [9 4]]]
+ [6 [[0 6] [1 5] [2 4] [3 3] [4 2] [5 1] [6 0]]]
+ [17 [[8 9] [9 8]]]
+ [3 [[0 3] [1 2] [2 1] [3 0]]]
+ [12 [[3 9] [4 8] [5 7] [6 6] [7 5] [8 4] [9 3]]]
+ [2 [[0 2] [1 1] [2 0]]]
+ [11 [[2 9] [3 8] [4 7] [5 6] [6 5] [7 4] [8 3] [9 2]]]
+ [9 [[0 9] [1 8] [2 7] [3 6] [4 5] [5 4] [6 3] [7 2] [8 1] [9 0]]]
+ [5 [[0 5] [1 4] [2 3] [3 2] [4 1] [5 0]]]
+ [14 [[5 9] [6 8] [7 7] [8 6] [9 5]]]
+ [16 [[7 9] [8 8] [9 7]]]
+ [10 [[1 9] [2 8] [3 7] [4 6] [5 5] [6 4] [7 3] [8 2] [9 1]]]
+ [18 [[9 9]]]
+ [8 [[0 8] [1 7] [2 6] [3 5] [4 4] [5 3] [6 2] [7 1] [8 0]]]
+ [0 [[0 0] [1 1] [2 2] [3 3] [4 4] [5 5] [6 6] [7 7] [8 8] [9 9]]]
+ [-4 [[0 4] [1 5] [2 6] [3 7] [4 8] [5 9]]]
+ [7 [[7 0] [8 1] [9 2]]]
+ [1 [[1 0] [2 1] [3 2] [4 3] [5 4] [6 5] [7 6] [8 7] [9 8]]]
+ [-2 [[0 2] [1 3] [2 4] [3 5] [4 6] [5 7] [6 8] [7 9]]]
+ [4 [[4 0] [5 1] [6 2] [7 3] [8 4] [9 5]]]
+ [-1 [[0 1] [1 2] [2 3] [3 4] [4 5] [5 6] [6 7] [7 8] [8 9]]]
+ [-8 [[0 8] [1 9]]]
+ [-6 [[0 6] [1 7] [2 8] [3 9]]]
+ [-3 [[0 3] [1 4] [2 5] [3 6] [4 7] [5 8] [6 9]]]
+ [6 [[6 0] [7 1] [8 2] [9 3]]]
+ [3 [[3 0] [4 1] [5 2] [6 3] [7 4] [8 5] [9 6]]]
+ [2 [[2 0] [3 1] [4 2] [5 3] [6 4] [7 5] [8 6] [9 7]]]
+ [-7 [[0 7] [1 8] [2 9]]]
+ [9 [[9 0]]]
+ [5 [[5 0] [6 1] [7 2] [8 3] [9 4]]]
+ [-9 [[0 9]]]
+ [-5 [[0 5] [1 6] [2 7] [3 8] [4 9]]]
+ [8 [[8 0] [9 1]]])
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+([[0 0]]
+ [[0 7] [1 6] [2 5] [3 4] [4 3] [5 2] [6 1] [7 0]]
+ [[0 1] [1 0]]
+ [[0 4] [1 3] [2 2] [3 1] [4 0]]
+ [[6 9] [7 8] [8 7] [9 6]]
+ [[4 9] [5 8] [6 7] [7 6] [8 5] [9 4]]
+ [[0 6] [1 5] [2 4] [3 3] [4 2] [5 1] [6 0]]
+ [[8 9] [9 8]]
+ [[0 3] [1 2] [2 1] [3 0]]
+ [[3 9] [4 8] [5 7] [6 6] [7 5] [8 4] [9 3]]
+ [[0 2] [1 1] [2 0]]
+ [[2 9] [3 8] [4 7] [5 6] [6 5] [7 4] [8 3] [9 2]]
+ [[0 9] [1 8] [2 7] [3 6] [4 5] [5 4] [6 3] [7 2] [8 1] [9 0]]
+ [[0 5] [1 4] [2 3] [3 2] [4 1] [5 0]]
+ [[5 9] [6 8] [7 7] [8 6] [9 5]]
+ [[7 9] [8 8] [9 7]]
+ [[1 9] [2 8] [3 7] [4 6] [5 5] [6 4] [7 3] [8 2] [9 1]]
+ [[9 9]]
+ [[0 8] [1 7] [2 6] [3 5] [4 4] [5 3] [6 2] [7 1] [8 0]]
+ [[0 0] [1 1] [2 2] [3 3] [4 4] [5 5] [6 6] [7 7] [8 8] [9 9]]
+ [[0 4] [1 5] [2 6] [3 7] [4 8] [5 9]]
+ [[7 0] [8 1] [9 2]]
+ [[1 0] [2 1] [3 2] [4 3] [5 4] [6 5] [7 6] [8 7] [9 8]]
+ [[0 2] [1 3] [2 4] [3 5] [4 6] [5 7] [6 8] [7 9]]
+ [[4 0] [5 1] [6 2] [7 3] [8 4] [9 5]]
+ [[0 1] [1 2] [2 3] [3 4] [4 5] [5 6] [6 7] [7 8] [8 9]]
+ [[0 8] [1 9]]
+ [[0 6] [1 7] [2 8] [3 9]]
+ [[0 3] [1 4] [2 5] [3 6] [4 7] [5 8] [6 9]]
+ [[6 0] [7 1] [8 2] [9 3]]
+ [[3 0] [4 1] [5 2] [6 3] [7 4] [8 5] [9 6]]
+ [[2 0] [3 1] [4 2] [5 3] [6 4] [7 5] [8 6] [9 7]]
+ [[0 7] [1 8] [2 9]]
+ [[9 0]]
+ [[5 0] [6 1] [7 2] [8 3] [9 4]]
+ [[0 9]]
+ [[0 5] [1 6] [2 7] [3 8] [4 9]]
+ [[8 0] [9 1]])
+clj꞉user꞉> 
+#'user/get_value_from_idx_pair
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil)
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+(nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil)
+clj꞉user꞉> 
+#'user/get_values_from_idx_pairs
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:16:43).
+; Unable to resolve symbol: get_values_from_idx_pair in this context
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+#'user/get_values_from_idx_pairs
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+((\M)
+ (\A \S \M \A \S \A \M \S)
+ (\M \M)
+ (\X \M \X \S \X)
+ (\S \A \M \M)
+ (\M \M \X \S \X \A)
+ (\M \M \X \M \A \X \S)
+ (\M \S)
+ (\S \A \M \M)
+ (\X \M \A \S \A \M \X)
+ (\M \S \A)
+ (\M \M \A \X \A \M \M \M)
+ (\M \S \A \M \M \M \M \X \A \M)
+ (\X \X \S \A \M \X)
+ (\A \S \A \M \X)
+ (\A \M \A)
+ (\A \M \S \X \X \S \A \M \X)
+ (\X)
+ (\S \M \A \S \A \M \S \A \M)
+ (\M \S \X \M \A \X \S \A \M \X)
+ (\X \M \A \S \M \A)
+ (\S \A \M)
+ (\M \M \A \S \M \A \S \M \S)
+ (\M \M \X \S \X \A \S \A)
+ (\X \X \S \A \M \X)
+ (\M \A \S \A \M \X \X \A \M)
+ (\S \A)
+ (\M \M \M \X)
+ (\S \X \M \M \A \M \S)
+ (\S \A \M \X)
+ (\M \M \A \M \M \X \M)
+ (\A \S \A \M \S \A \M \A)
+ (\A \S \M)
+ (\M)
+ (\X \M \X \M \A)
+ (\M)
+ (\X \S \A \M \M)
+ (\M \X))
+clj꞉user꞉> 
+("M"
+ "ASMASAMS"
+ "MM"
+ "XMXSX"
+ "SAMM"
+ "MMXSXA"
+ "MMXMAXS"
+ "MS"
+ "SAMM"
+ "XMASAMX"
+ "MSA"
+ "MMAXAMMM"
+ "MSAMMMMXAM"
+ "XXSAMX"
+ "ASAMX"
+ "AMA"
+ "AMSXXSAMX"
+ "X"
+ "SMASAMSAM"
+ "MSXMAXSAMX"
+ "XMASMA"
+ "SAM"
+ "MMASMASMS"
+ "MMXSXASA"
+ "XXSAMX"
+ "MASAMXXAM"
+ "SA"
+ "MMMX"
+ "SXMMAMS"
+ "SAMX"
+ "MMAMMXM"
+ "ASAMSAMA"
+ "ASM"
+ "M"
+ "XMXMA"
+ "M"
+ "XSAMM"
+ "MX")
+clj꞉user꞉> 
+; Syntax error macroexpanding clojure.core/defn at (src/clojure_2024/d4.clj:17:1).
+; map - failed: vector? at: [:fn-tail :arity-n :bodies :params] spec: :clojure.core.specs.alpha/param-list
+; (map str/join (get_diag_values grid (diagonals grid))) - failed: vector? at: [:fn-tail :arity-1 :params] spec: :clojure.core.specs.alpha/param-list
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:18:48).
+; Unable to resolve symbol: get_string_diags in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:18:48).
+; Unable to resolve symbol: get_string_diags in this context
+clj꞉user꞉> 
+#'user/get_string_diags
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+("MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"
+ "MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX"
+ "M"
+ "ASMASAMS"
+ "MM"
+ "XMXSX"
+ "SAMM"
+ "MMXSXA"
+ "MMXMAXS"
+ "MS"
+ "SAMM"
+ "XMASAMX"
+ "MSA"
+ "MMAXAMMM"
+ "MSAMMMMXAM"
+ "XXSAMX"
+ "ASAMX"
+ "AMA"
+ "AMSXXSAMX"
+ "X"
+ "SMASAMSAM"
+ "MSXMAXSAMX"
+ "XMASMA"
+ "SAM"
+ "MMASMASMS"
+ "MMXSXASA"
+ "XXSAMX"
+ "MASAMXXAM"
+ "SA"
+ "MMMX"
+ "SXMMAMS"
+ "SAMX"
+ ...)
+clj꞉user꞉> 
+; Execution error (ArityException) at user/eval12493 (form-init11515184500665957990.clj:20).
+; Wrong number of args (2) passed to: clojure.lang.PersistentVector
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval12501 (form-init11515184500665957990.clj:20).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+6
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+15
+clj꞉user꞉> 
+("M"
+ "ASMASAMS"
+ "MM"
+ "XMXSX"
+ "SAMM"
+ "MMXSXA"
+ "MMXMAXS"
+ "MS"
+ "SAMM"
+ "XMASAMX"
+ "MSA"
+ "MMAXAMMM"
+ "MSAMMMMXAM"
+ "XXSAMX"
+ "ASAMX"
+ "AMA"
+ "AMSXXSAMX"
+ "X"
+ "SMASAMSAM"
+ "MSXMAXSAMX"
+ "XMASMA"
+ "SAM"
+ "MMASMASMS"
+ "MMXSXASA"
+ "XXSAMX"
+ "MASAMXXAM"
+ "SA"
+ "MMMX"
+ "SXMMAMS"
+ "SAMX"
+ "MMAMMXM"
+ "ASAMSAMA"
+ "ASM"
+ "M"
+ "XMXMA"
+ "M"
+ "XSAMM"
+ "MX")
+clj꞉user꞉> 
+("MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX")
+clj꞉user꞉> 
+["MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"]
+clj꞉user꞉> 
+("M"
+ "ASMASAMS"
+ "MM"
+ "XMXSX"
+ "SAMM"
+ "MMXSXA"
+ "MMXMAXS"
+ "MS"
+ "SAMM"
+ "XMASAMX"
+ "MSA"
+ "MMAXAMMM"
+ "MSAMMMMXAM"
+ "XXSAMX"
+ "ASAMX"
+ "AMA"
+ "AMSXXSAMX"
+ "X"
+ "SMASAMSAM"
+ "MSXMAXSAMX"
+ "XMASMA"
+ "SAM"
+ "MMASMASMS"
+ "MMXSXASA"
+ "XXSAMX"
+ "MASAMXXAM"
+ "SA"
+ "MMMX"
+ "SXMMAMS"
+ "SAMX"
+ "MMAMMXM"
+ "ASAMSAMA"
+ "ASM"
+ "M"
+ "XMXMA"
+ "M"
+ "XSAMM"
+ "MX")
+clj꞉user꞉> 
+("MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"
+ "MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX"
+ "M"
+ "ASMASAMS"
+ "MM"
+ "XMXSX"
+ "SAMM"
+ "MMXSXA"
+ "MMXMAXS"
+ "MS"
+ "SAMM"
+ "XMASAMX"
+ "MSA"
+ "MMAXAMMM"
+ "MSAMMMMXAM"
+ "XXSAMX"
+ "ASAMX"
+ "AMA"
+ "AMSXXSAMX"
+ "X"
+ "SMASAMSAM"
+ "MSXMAXSAMX"
+ "XMASMA"
+ "SAM"
+ "MMASMASMS"
+ "MMXSXASA"
+ "XXSAMX"
+ "MASAMXXAM"
+ "SA"
+ "MMMX"
+ "SXMMAMS"
+ "SAMX"
+ ...)
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+18
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:14:8).
+; Unable to resolve symbol: entry in this context
+clj꞉user꞉> 
+((\X \M \A \S) (\M \A \S \A) (\A \S \A \M) (\S \A \M \X) (\A \M \X \.) (\M \X \. \M) (\X \. \M \M))
+clj꞉user꞉> 
+((\X \M \A \S) (\M \A \S \A) (\A \S \A \M) (\S \A \M \X) (\A \M \X \.) (\M \X \. \M) (\X \. \M \M))
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#function[clojure.core/map/fn--5931]
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval12565 (form-init11515184500665957990.clj:28).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+("clojure.lang.LazySeq@374168"
+ "clojure.lang.LazySeq@321663"
+ "clojure.lang.LazySeq@2ce35f"
+ "clojure.lang.LazySeq@34cffa"
+ "clojure.lang.LazySeq@2ccf83"
+ "clojure.lang.LazySeq@32684b"
+ "clojure.lang.LazySeq@36ce77")
+clj꞉user꞉> 
+("XMAS" "MASA" "ASAM" "SAMX" "AMX." "MX.M" "X.MM")
+clj꞉user꞉> 
+; Execution error (FileNotFoundException) at java.io.FileInputStream/open0 (FileInputStream.java:-2).
+; d4f.txt (No such file or directory)
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/transpose
+clj꞉user꞉> 
+("XMMXMAMXSXSAMXSMMMAMXMSMMSXSSSSSMMXSAMSAMXXXMXXMMMASMMAMMSSMMXMAMSXMMSAMXMSSMMMSAMSXMMSASASMMSMMASMSSMSXXMMSAMXSMMSAMXMXMXXMAXSXXSAMXSASMMAS"
+ "MSAMMSXMMMSXSMMAAXAMXXAAAMSXAAAXAAXXAXMXSMXSMMMSAMAMASXSMSASXSXSXAASXSSXXSAMMAMAAXSASASAAAMAAXASASAAXAAMMMASAMXSAMXAMMMAMASMMSXXXAXSAXSXAMAX"
+ "XMASAMASMASAXAXSMSMSMASMMSSMMMMMMMSMSMMAXMAMAAAXXMAXXMAAXXAMMMAXMSXMAXMSMMAXSASXMMSAMAMAMMMMMSMMASMMMSMAAMASAMXSMMSXMAMXSAMASAMMMMMMMSMXXMAX"
+ "MSAMMXAMMAMXMMMMASAAXMAAXAXAXAXAAMXXMAMASMSSMMSMSSXXSMMSMMSMASAXAAAMAMXXMSAMSAXXSAMXMXXXSAAAAAAAAMASXXXMMMXSMMXMAMAMSXSMMASXMMXAAAAXXAMSSXSA"
+ "AMASXMSSMXSAAXAMAMSMMXSSMSMSSMSSSXSMSMMMMAMAXXMMAAXAXAAMMMAAMMXMXMXMXAXXAMMXMSMXMASXSXMASXSMSSSMMMXMAMMSMMXXMSASMSMMAMAASAMAMXMSXSMSMAXXAAXM"
+ "XSXMXSXAXAMMSMMMAMAMAXMXAAAXMAMAXMXAASXXMAMASAXMMSMXSMMXASASMXAMMSMMXSXMMAMAMXXXSAMMXXXXMAXMXMXMMSXMSMAAAAXAXSAXAAAMAMSMMXSAMMMXAXXSMSMSMMMM"
+ "XMXSXMSXMAMAXAASASASXSMMSMXMMAMMMAMMMMXASMSAMMXXSAMXSMAMMMXXXXMMASAMMXAAXASASXMXMASAMMMMMMSMASMMMSAAMMMSSMMMMMXMSMMSMXMMXASMSAMXAXASAAASXXAA"
+ "SXAAAMXMASMMSSMSXSXSAAXMASXMMMSSXSAASXSMMMMAMAMXMXMAMMAMSAMXMMMAXSAMSMSSXMSASXMASAMMAAAAASAMXMAXASMMMAAXAMAAXMAXMAMXAAXSMXMMMMSMSMMMSMAMXXSX"
+ "XMASAMAMXMAMMMMSXMXMXMMMASMASAMXMAXAMXAMXSSSMSAMXAMASMAXSASAMAMMMXAMXAXMAMMMMASXSSMSSSSSMSASMSSMMXXAMMXSAMSSMSSSXXAMSMMXMAXMAMAMXAAMXMMMMAXM"
+ "SMXXAXAMMSAMMAASMXAMAMXMAXMAMXSASMMSMSMMMXAXSMSMXSSXSMSXSAMASXSAMXSAMSMMMSAMSAMASXXXAMMAMSXMXAAAAXSXSMMMMMXAAMAMXMXAXXASMSSSMSSSSXMXXXSASMSA"
+ "SAXMMMXMASASMMXMASXSASMMSSMASXSASXMAAAAAXSMMMSASAXAXXAMASMSMMMMMXAASAMAMAMAMXAMSMAMSASMSMMAMMSSMMMMASXAAAXSMMSAMAAMMMMMXAMAAAMAAMSSSMMSAAAMM"
+ "MAMAMASMMMMMAAAMXXXSMSAMAAXASMMMMMSMSMSSMMAAXSSMMSMAMMMAMMAAAXAXMXMMSMASXSSMSXMAMAMSAMAAXMASAMXMMXAAMSSSMXMXASASMXSSXMASAMAMMMMMXAMSAAMSMSMM"
+ "MSMAMAMAXSSSMMMMSAMMASXMSMMXMXAMAXAXXXXMASMMXMAMMAMSSXMSMSMSMSMSMSSSXMAXXAMXMMSXSAXMSMSMMSAAMXASXSMSXXXMMXMMASAMXAAMAMXSXMMAMXAXMXSMMMXAXXAX"
+ "MAMASASMMAAAASAAMAMMAMXMAMXASXSSMSSMMMSMMMMAASAMSXXAAAXXAXAAAMASAAXMAMMSAMXAXAXAMAMXXXMXXXSAXSXSASAMXMMXMAAAXMXMMMSSXMMMASXMAXAXAMSAMXMSSSMM"
+ "XMSMSMSAAMSMMMMSSXMMMSAMSSXXAAXXXAMAAAXAAAMSMSMXAMMSSMMMMMSMSMAMMMSSSMAXMXXASXMXMMMMMXSASAMXASMMMMMMAAXASXSMXMASXXMMMAASAMASMXMASASAMXSMAAMX"
+ "AXAMSAMXSMMXXXAAMMAMAMASASMMMSMMMSSSMSSSMSAAXMAMMSAXAXXAAAXMXMASMXXXAXXXSMSMMMSXSXAAXMMAMXSMMMAAXAXSSXMMXAAXMAXXMAAAXXXAASAMXSAMXXMAMMAMSMMM"
+ "MMSMMAXAMXSAMXMASXXMASXMAXXAXMASAAXAMAMAMXMXSSXSMMXXXMSXMMSASAMXXAMSMMMAMAMAAXSAMXSXMXMAMXXAXASMSMMAAXSSMSMMASXSMXSAMSXSMMASAMAMAXSMMXAMMXXA"
+ "XAAAMSMMSAMXAMSAXMASAXASAXSSXSSMMSSXMASXMXXMAXASMMMSMMAAMASMMSXMMAMAXAMAMMSMMMMSMAMMMAAAAXSSMMAAXXASMSAMXXMAAXAAMAMMMSAMXSSMXMAMXXMAMSSSMSAS"
+ "MSSMMMMMAMMAXMMMSSXMASXMSXXMASAMSAMXSXSAAMSASMMMAAAAAMSSMASXMAXASMSMSASASXAAMAAXMASASAMMSMXAMXXSMSXXXMAMAMASAMSMMASAAMXMMMMAMSSXMMMAMAAAASXA"
+ "MMAAXXAAMSXMXSAAXMSMAMAAXXMAXSAMMSAASASMMMAAMAXSSMSMSMAXMXMAAXMMMMAAXASASMSSMMSXSAXXSAMSAMSMMMMMMXASXMMSMMMXAXAMMAMMMSXSSXMAMXAASMSSSXSMMMMS"
+ "MMSMMSMMXAASXSMMAMXMAMMMMMMSMMMMXMMASAMMMXMMSSMMXAAAXMMSXXSAMMXSAMXSMMMXMAMXAAMMMMSMMAMSAMXMASAAMMXMAXAAAMXSXMMXMMXMAXAXMXSASMSMMAAAMMXAXAAM"
+ "AXAMAXASMSSMAXXSASAMMMSAMMMAAMMMAMMAMAMXXXXXAMAMMMMSMAXMMAMXMAAAAXAMXXSSSMMXMMMAAMAXMAMXSMAXASMSXMASXMSSSMMXAMXMASAMMMMMSASXSAAAMMMSMSSMMMSS"
+ "MSASXSMMMXXMMMMMXSXSAAXMSASXSMMSAXMAXMMSMMMMMSAMXSXMMSMXMXXAMMXSAMSMMSXMMAXXSXSSMSASXSXSXMXSXXXAASASMMMAMASMXMMSASASMAAAMXSXMASXMXMXAAAAXXAA"
+ "XSAMXAAAXSASMSMSXSAMMXSMSAMAXAXSASMMMSAMAAAAMSXSXAMXAMAAMMSMSMMMMAMAMXAMSAMAXAMXAMAMAAMAMAXAAXASXMAMMAMAMMMSASXMASAMXMMSSMMAMAMXXMSMMSSMMMMS"
+ "MMAMSSMMXSAMAMAAASAMXXAAXAMMMSXMMMMASMASXMSSMSXMMMXMAMSMXAAAAXAASXMAMSSMAAMAMXMMSMAMMMMMMASMSMMXAMXXSAMMXMAXMMAMAMXMXSSXMASAMSSMSAXAXAMAAAAM"
+ "ASAMXXMAMMSMAMMMMMXSXMMMMMMXAAAAMAMXMSMMAAAAASASASASAMXSAMMSMSSMMMSXMXXASMMXMASAAMXXSAMXMXSXAAXXXMAXSASMSMMSASXMMMXSAMXAXMMAXXAAMMSSMMSSSMSS"
+ "MSAMXMMXSSMMXSXSASASMSAXAXAXMMSMSMSMMAMSMMMMXMASXSMSXSAAMSMMXXAXAAAASMSXMXMAXSMSSSXXXASXMAXXMXMSMMMXMAMAAAAAMAXAAMAMMSMSMMXSMSMXMMAMXXAAAAAX"
+ "XMAXXMAXXAXMMMMASMASASASXSSSMMAAXXAAMAMXXAXXSMMMMMASMMMMXXAAMXSSMMSSMAAXMASXMMAXMMMMSAMAXSXMXMXAAAMAMAMSSMMMXSSSMMMSAAAXXXXXASASXMAMSAMSMMMS"
+ "ASAMSSSSMMXSAASMXMXMXMMMXAXAXSMSMSMMMASXSMSMMAXAAMAXXAMXXSMMMSAAMAXAMMMMSMMSAMAMXSAXMSSXMAAAXASXMMSSMSXMMASXMAMXAAXXXMSMMSAMXMASXMASMMXAAAXA"
+ "MMASAAAAXAASMXMXMAMXASMMSSSXMMAMXMXAXMAXAAAMSAMMSMAXSMSXXAMAMMSMMMSMSAAAAAAMXMASAMSXAXXMMSSMMMMAMMAMXAAXMAXAMXASXMSMXMAAAAXMAMXMAMSAMXSXSXSM"
+ "SMXMASMMMMMXAMMSXAMSASAMAAMMSMAMAMSMSXASMMSXXAMXAMSXMAAXMASXSAAXAMAASXSSSMMMAXMMASXMSMMXXAAAXXMXMMASMMMMMMSXMMXXMMXMMSSMMMXSXSASXMMAMASXMASA"
+ "AXSAMMXXSASMAAAXAMXAMSAMMMMMAMASAXAAMMMMXAXASAMSMMAAMAMXSAMXMXSSXSMMMMMAXAMSXMXSXMMXAAASMSSMMMMSSSMMMSAMMMAMXASMMMAAXMAMSXMAXSAMAASAMAXAMAMM"
+ "MXMAMMXMSAXSMMSXXMAMAMXMAMASMSXSXSMSMASXMSSMMAAAAMSSMAXXMSSXMAXMAXMXAAMMMSMMMSXSAMXSMSMAAMAMXXAAXAAMASXSASXXSXSAASMSAMAXMAMAXMMMSAMXMSSMMSSX"
+ "XSSSMMAMMAMSMAMAMSASMSSSXSASXAMMMXAMMSMXMXMXXSSMSMXAMMSMAASXMASMSMASMMSSXXAASAMSXMXXXMXXMXMASMSMSSMMXSAMASMAXAXMMSAMMSAMSSMMSMSAMAMSMXAAAAMA"
+ "SAAXXXAXMAMXMASAXMASAAAMMMASXMAAMMMMXAMXMSXMAAXAAMSMMMAMMMSXMASAAMMXAXMXASXMMSXXAXMMMMMMSMMMXXAAMMXAAMAMAMMAMSMSXXAXXMXXAMXXAAMASXMAXXSMMXXM"
+ "AMMMMSMSSXSXSXSASMAMMMMMAMAMXXMAXASMSSSMXSAMAMMSAMXAASMSAMXXSAMXMASMSMMMXMAAAAXSMMAAAAAAAMASXXMXMMMMSSMMSSMXMMAMXSXMMASMMXSSMSMASAMXMXXASMSS"
+ "MXMAXAXAXXMASMMMMMMSAMASMSAXMMSMXMSAAAXXASAMAXXXXASXMSXSASAMMXSMMXMAXAMAAXMMMXMAMASXSSSSXSASXMMMSXAMAAAAAMXSSMAMASAMSASASAMXMXMSMMMAASMMMAAA"
+ "XMMSSMMSMMSAMXMAMXASXSASXXAXXMAXAXMAMMMMMSAMSSMMMMMXAXASAMMSXXMAXMMASAMSSXMSXSSSMXMAAAAXAMASAASAMXMMSSMMMXAMASXMASAMXASAMXSAMXMAAAXMMMMSMMMM"
+ "MXAAAXAMAMAASMSAMMMMXMASMXSMXSASXMAAMXASMMMMMAAMAAAMAMXMAMMXAMSAMSMAXAMAAAASAMAAXXSXMMSMSMAMMMAAASXMAMXASMAXXMMMASAMXAMMMASMSAXSSMSSXMASAXMX"
+ "XMMSXMASXMSXMASMSMAMMMMMMAMAXMASAASMXSASAMSASXMAMSSSMSSSMASMAAAAMXAXSSMMSMMMAMSMMMMAMAXXAMXXXMSAMXAMXMMASMMMMAXMASMSSMXXXMXMMMMMAXAXXMXSXMAS"
+ "MXAXMMASXXMASAXMAXMMAXAAMAXSSMAMAMAAXSAMMMSASAMXXMMAAAMASAXSXMSSMASMMXAAMMSSMMMXMASXMASAMXSMAMAMXMMMSSXAXAXAMXMMXSMMAAXSAMASAAAXMMMSSSXMMSXS"
+ "MMMMAMXSAMSMMAMMXSXAXSSSSMMXAMXSASMXMMXMXAMMMMAXAMSMMMSAMMXMXMAMXXMAXSMMSAAXAAXAXMAMXXSAXASMAMAMMSMAAXMASXMMSMAAASASMMMXAXAXMSMXSAXAAAAMAMAM"
+ "MSASXSMMMMAXSXMXSXXSXAXMAMASMMMSASXMAMAXMXMAAXXMMXMXSAMXXAAXMMSSMMSXMMAXMMSSSMSAMXAXMAXAMXMMSMXMAXMMMXAXXXSAAXMMXMMAAMSSMMMXMAXASMSMMSMMASAA"
+ "AMAMAAXAXSMXXXMXMAAMMMMMSMAXXXAMXMMASXSSSMSMSSSXMAXXMAMSMSSSXAMAXAAXMSSMSAXAXXSAMXMSMXMSASXAAAXMMSXAAMXAMMMSXSXSXSXSSMXASXMASXMMMMAXXAXSASAS"
+ "XMMMSMMMMSXMMAXAMXMAAAAMMMMSMSXSASXXXAAMMAAAAAMMSSSXSAMAAXAMMXMAMXMMMAMAMASMMMSMXSAXAAAAAAXMASMAAAMASASASAAXXMAMAAXAMXMMMSMAMASXASMSMMMMASAM"
+ "XXMAMMMMAMMAXSXMMAXSSSXMAXMAAXASAXAXMMMMMSMMMSMXAAMAMASMSMSMSMSMXMMSAAMXMMMXAXSAAXXAMMSMSMSMAMXXMXSXMMAASMSMASAMXMMXSXAXAMMASMMMXXXAAMMSMSAS"
+ "MMMMSAAMAXSAXXASXSMMMMXSSSSXSMAMSMMMMAXXAMXAAXXMAMMMSXMXMAAXAAAAMAMAMSSSXMSSSXMMMXMMXXXAAXXMAXMXXAMXSXMXMMAMMMMAMXMMMMSMAMSMMMAAXSSSSMAAASAM"
+ "AMAXMMMSXMMAASAMAXAMASAMMAAXXAMXAXXASMSAXASMSSXMSAMXAAXAMXMSMSMSAAXMAAAXAAXAMMSASXSASAMSMSMSXSASMMSAMMXAASMMMMMAMASMAAXMAMSASXSSMAAAXMMMXMAM"
+ "SMMXXMMAMXASMMAMMMSMAMMSMMMMMMSAMXMMSAMMMXMAMXMAXASMSSMMXMXAMAAXXXSXMXSMMMSAMXSASAMMSAMXMXXAMXAXAAMMSASMMXAAAASAXASMMMSAMXMAMXAMAMMMMXXAAXAM"
+ "MAMAAMMSXSAMAXXXAAAMAXXXAAAXSAMMXMSAMXMAAXMAMAAMMAMXMAMXAMXASXSMSMMMMAMAXXMXMXMXMXMASMMASAMMSSMSMMSMXXXMSSSMSXSASMMXSMXMXXMMMSXSSXSAAXXSMSSX"
+ ...)
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+#'user/get_value_from_idx_pair
+clj꞉user꞉> 
+#'user/get_values_from_idx_pairs
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+#'user/get_string_diags
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+833
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/count_XMAS
+clj꞉user꞉> 
+833
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+833
+clj꞉user꞉> 
+833
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+833
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+8
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+8
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+8
+clj꞉user꞉> 
+("MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"
+ "MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX"
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ...)
+clj꞉user꞉> 
+#'user/get_value_from_idx_pair
+clj꞉user꞉> 
+#'user/get_values_from_idx_pairs
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+#'user/get_string_diags
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+("MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"
+ "MMAMXXSSMM"
+ "MSMSMXMAAX"
+ "MAXAAASXMM"
+ "SMSMSMMAMX"
+ "XXXAAMSMMA"
+ "XMMSMXAAXX"
+ "MSAMXXSSMM"
+ "AMASAAXAMA"
+ "SSMMMMSAMS"
+ "MAMXMASAMX"
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ""
+ ...)
+clj꞉user꞉> 
+["MMMSXXMASM"
+ "MSAMXMSMSA"
+ "AMXSXMAAMM"
+ "MSAMASMSMX"
+ "XMASAMXAMM"
+ "XXAMMXXAMA"
+ "SMSMSASXSS"
+ "SAXAMASAAA"
+ "MAMMMXMMMM"
+ "MXMXAXMASX"]
+clj꞉user꞉> 
+([[0 0]]
+ [[0 7] [1 6] [2 5] [3 4] [4 3] [5 2] [6 1] [7 0]]
+ [[0 1] [1 0]]
+ [[0 4] [1 3] [2 2] [3 1] [4 0]]
+ [[6 9] [7 8] [8 7] [9 6]]
+ [[4 9] [5 8] [6 7] [7 6] [8 5] [9 4]]
+ [[0 6] [1 5] [2 4] [3 3] [4 2] [5 1] [6 0]]
+ [[8 9] [9 8]]
+ [[0 3] [1 2] [2 1] [3 0]]
+ [[3 9] [4 8] [5 7] [6 6] [7 5] [8 4] [9 3]]
+ [[0 2] [1 1] [2 0]]
+ [[2 9] [3 8] [4 7] [5 6] [6 5] [7 4] [8 3] [9 2]]
+ [[0 9] [1 8] [2 7] [3 6] [4 5] [5 4] [6 3] [7 2] [8 1] [9 0]]
+ [[0 5] [1 4] [2 3] [3 2] [4 1] [5 0]]
+ [[5 9] [6 8] [7 7] [8 6] [9 5]]
+ [[7 9] [8 8] [9 7]]
+ [[1 9] [2 8] [3 7] [4 6] [5 5] [6 4] [7 3] [8 2] [9 1]]
+ [[9 9]]
+ [[0 8] [1 7] [2 6] [3 5] [4 4] [5 3] [6 2] [7 1] [8 0]]
+ [[0 0] [1 1] [2 2] [3 3] [4 4] [5 5] [6 6] [7 7] [8 8] [9 9]]
+ [[0 4] [1 5] [2 6] [3 7] [4 8] [5 9]]
+ [[7 0] [8 1] [9 2]]
+ [[1 0] [2 1] [3 2] [4 3] [5 4] [6 5] [7 6] [8 7] [9 8]]
+ [[0 2] [1 3] [2 4] [3 5] [4 6] [5 7] [6 8] [7 9]]
+ [[4 0] [5 1] [6 2] [7 3] [8 4] [9 5]]
+ [[0 1] [1 2] [2 3] [3 4] [4 5] [5 6] [6 7] [7 8] [8 9]]
+ [[0 8] [1 9]]
+ [[0 6] [1 7] [2 8] [3 9]]
+ [[0 3] [1 4] [2 5] [3 6] [4 7] [5 8] [6 9]]
+ [[6 0] [7 1] [8 2] [9 3]]
+ [[3 0] [4 1] [5 2] [6 3] [7 4] [8 5] [9 6]]
+ [[2 0] [3 1] [4 2] [5 3] [6 4] [7 5] [8 6] [9 7]]
+ [[0 7] [1 8] [2 9]]
+ [[9 0]]
+ [[5 0] [6 1] [7 2] [8 3] [9 4]]
+ [[0 9]]
+ [[0 5] [1 6] [2 7] [3 8] [4 9]]
+ [[8 0] [9 1]])
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:26:6).
+; Unable to resolve symbol: % in this context
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+; Syntax error macroexpanding clojure.core/let at (src/clojure_2024/d4.clj:25:1).
+; [diagonals_v (diagonals grid) vals (get_diag_values grid diagonals_v) vals] - failed: even-number-of-forms? at: [:bindings] spec: :clojure.core.specs.alpha/bindings
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+\M
+clj꞉user꞉> 
+(nil)
+clj꞉user꞉> 
+([[0 0]]
+ [[0 7] [1 6] [2 5] [3 4] [4 3] [5 2] [6 1] [7 0]]
+ [[0 1] [1 0]]
+ [[0 4] [1 3] [2 2] [3 1] [4 0]]
+ [[6 9] [7 8] [8 7] [9 6]]
+ [[4 9] [5 8] [6 7] [7 6] [8 5] [9 4]]
+ [[0 6] [1 5] [2 4] [3 3] [4 2] [5 1] [6 0]]
+ [[8 9] [9 8]]
+ [[0 3] [1 2] [2 1] [3 0]]
+ [[3 9] [4 8] [5 7] [6 6] [7 5] [8 4] [9 3]]
+ [[0 2] [1 1] [2 0]]
+ [[2 9] [3 8] [4 7] [5 6] [6 5] [7 4] [8 3] [9 2]]
+ [[0 9] [1 8] [2 7] [3 6] [4 5] [5 4] [6 3] [7 2] [8 1] [9 0]]
+ [[0 5] [1 4] [2 3] [3 2] [4 1] [5 0]]
+ [[5 9] [6 8] [7 7] [8 6] [9 5]]
+ [[7 9] [8 8] [9 7]]
+ [[1 9] [2 8] [3 7] [4 6] [5 5] [6 4] [7 3] [8 2] [9 1]]
+ [[9 9]]
+ [[0 8] [1 7] [2 6] [3 5] [4 4] [5 3] [6 2] [7 1] [8 0]]
+ [[0 0] [1 1] [2 2] [3 3] [4 4] [5 5] [6 6] [7 7] [8 8] [9 9]]
+ [[0 4] [1 5] [2 6] [3 7] [4 8] [5 9]]
+ [[7 0] [8 1] [9 2]]
+ [[1 0] [2 1] [3 2] [4 3] [5 4] [6 5] [7 6] [8 7] [9 8]]
+ [[0 2] [1 3] [2 4] [3 5] [4 6] [5 7] [6 8] [7 9]]
+ [[4 0] [5 1] [6 2] [7 3] [8 4] [9 5]]
+ [[0 1] [1 2] [2 3] [3 4] [4 5] [5 6] [6 7] [7 8] [8 9]]
+ [[0 8] [1 9]]
+ [[0 6] [1 7] [2 8] [3 9]]
+ [[0 3] [1 4] [2 5] [3 6] [4 7] [5 8] [6 9]]
+ [[6 0] [7 1] [8 2] [9 3]]
+ [[3 0] [4 1] [5 2] [6 3] [7 4] [8 5] [9 6]]
+ [[2 0] [3 1] [4 2] [5 3] [6 4] [7 5] [8 6] [9 7]]
+ [[0 7] [1 8] [2 9]]
+ [[9 0]]
+ [[5 0] [6 1] [7 2] [8 3] [9 4]]
+ [[0 9]]
+ [[0 5] [1 6] [2 7] [3 8] [4 9]]
+ [[8 0] [9 1]])
+clj꞉user꞉> 
+[[0 0]]
+clj꞉user꞉> 
+(nil)
+clj꞉user꞉> 
+\M
+clj꞉user꞉> 
+[[0 0]]
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval12781 (form-init11515184500665957990.clj:27).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+#'user/get_values_from_idx_pairs
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+\M
+clj꞉user꞉> 
+(\M)
+clj꞉user꞉> 
+#'user/get_string_diags
+clj꞉user꞉> 
+((nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil nil)
+ (nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil)
+ (nil nil nil nil nil nil nil)
+ (nil nil nil nil nil nil nil nil)
+ (nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil)
+ (nil nil nil nil nil)
+ (nil nil))
+clj꞉user꞉> 
+#'user/get_diag_values
+clj꞉user꞉> 
+#'user/get_string_diags
+clj꞉user꞉> 
+#'user/get_value_from_idx_pair
+clj꞉user꞉> 
+#'user/get_values_from_idx_pairs
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Character
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Character
+clj꞉user꞉> 
+((\M)
+ (\A \S \M \A \S \A \M \S)
+ (\M \M)
+ (\X \M \X \S \X)
+ (\S \A \M \M)
+ (\M \M \X \S \X \A)
+ (\M \M \X \M \A \X \S)
+ (\M \S)
+ (\S \A \M \M)
+ (\X \M \A \S \A \M \X)
+ (\M \S \A)
+ (\M \M \A \X \A \M \M \M)
+ (\M \S \A \M \M \M \M \X \A \M)
+ (\X \X \S \A \M \X)
+ (\A \S \A \M \X)
+ (\A \M \A)
+ (\A \M \S \X \X \S \A \M \X)
+ (\X)
+ (\S \M \A \S \A \M \S \A \M)
+ (\M \S \X \M \A \X \S \A \M \X)
+ (\X \M \A \S \M \A)
+ (\S \A \M)
+ (\M \M \A \S \M \A \S \M \S)
+ (\M \M \X \S \X \A \S \A)
+ (\X \X \S \A \M \X)
+ (\M \A \S \A \M \X \X \A \M)
+ (\S \A)
+ (\M \M \M \X)
+ (\S \X \M \M \A \M \S)
+ (\S \A \M \X)
+ (\M \M \A \M \M \X \M)
+ (\A \S \A \M \S \A \M \A)
+ (\A \S \M)
+ (\M)
+ (\X \M \X \M \A)
+ (\M)
+ (\X \S \A \M \M)
+ (\M \X))
+clj꞉user꞉> 
+8
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+18
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/diagonals
+clj꞉user꞉> 
+#'user/all_options
+clj꞉user꞉> 
+("XMXMAXXSXSSMMMXAMXMMMAMXMAMXAMSAMXSAMXMXMMMAXXMASMSMSAMXMSMMMAMXMXAMMAMMMXMAMMMMMAMMMMSAMXMMAMXAXMXMAMXSXSMMSMMMMSMMXXAMSMSASAXMMMSMMMSMASMM"
+ "MSMSMSMXMMAASAMXMASMMXSSMSSMSMMXXSAMXMXMXMSMMXMMMAAXXAAAMXSSSMAAXSXSMSASXMMSMMAAMAMXMASMSASASXMASMMSMSAMMASXAXAASAAMAMSXMAXAMAMSAXAAMASMAMAM"
+ "MAAAAXXAAXXMMMSASASASAAAAAAAAAXSMSAMMMAMAMAAMMMAMMMMMSSXSAMXAMMMMAXSAXAXMMAAASXMMASMMMSXSASAXMSAAXAMAMAXSAMMSMSSSMSMMAAAMMMMMAMMASMSMAXMASAM"
+ "XMSMSMSASXMAAAMMMAMAMMSMMMMXMSMAASXMASASXMSMMAMXXAMXAMXMMAXSMMMSAMXMAMSMAMSSMMAMSMSASAMAMAMAMAMSAMXMAMXMMASAMXMAXXXAXXSSMXASXXXSAMXXMAXSMXAS"
+ "MMAMXXXAAAMMMSSSMMMXMAXXSXXXSAAMMMXMXSAXMAXASMSMXAMXSSXMSSMXXSXMAXSMXMAMSMAMAMMMAXSMMAMAMAMMMSMMXXASASXXSAMMSMMAMXSXMAMAXXXSXMXAAXXXSAMSMSMM"
+ "ASMXMSMMMXMAAAMAASMXSXSASXMMSASMMMXSAMXMMMSAMMAMMMMMMAAXAMXSMMASMMXMMSMMAMASXMXMAXXASMMXXXXAMAXSSSMSASMMMASASAMAMXMASMSXSMSMMAXMXSMMMASXAAAX"
+ "MXAASXSXAAXSMSSMXMMAMAMAMMMASAMXXAAMXMAAAXMXMMAMMMAASMMMSSXSSXXMXAMSAAAXSSMSAMASXSSMSAMSSXSASMSAAAAMAMAAMMMASMMASAXXMXAAAMAMMSMMAXXASXMMSMSS"
+ "XMSMSAXMMMMMAMAXAMMAMSMAMAXXSAMXMMXSASMSSSMAMMMSASMMSXSAMMAMXMSMXSAMSMSMMAXSXMASXAAAMMSAAASAMXXMSMMMASMMSMMMMASMSXSMMXMXMXASAMXMAXXASASXXAAM"
+ "SMMMMXMAXMAMXMASMSAMXMMXXMSXMXMSSMMSXMAXXAMXMAAXMXXXMMMASMAMAXXAAAXXAXXASAMXXMASMMMXSMMMSMMMMMXXXXMSASXAAXMAXXMAXAXAXAXXSSMSMSMMASAASAMMMMXS"
+ "XMAAXAASMSSMSAMMXAMSASXSSMSAMAMAAAAXXMMMXMMSSMXMXSMSMAMXMXXSASMMMSMMSSMASMSMXMAMAXAAXAAXAXMXAXSSMAXMASMMMSXAMSMSMAMSMMSAXAMSXAAXAXMMMAMXXAMX"
+ "SSSMSMMMAAAMSASMSMMXASXAASMXXAMSXMMSMSASMSAMXMSMAAAASXSXSAXAMXXAAXMAXAMAMAAAAMMXSAMASMMSASMMSMSASXMSMXASASMMMAAMAMXMAMXMSAMXSSSMMSXMASMXXAAS"
+ "AXAXAMAMMMSMSAMXAXAMSMMSMMMMSSXMSSXXAAAXAMXXMAAASMSMSXAAXMASMMSSSSMXSXMXSSMMMSMSXAMAXXAXAAAAXXSAMMMAMXXMAMAASMMMSMAMAMXXXMMMAMXAAAAMAMSMSSSM"
+ "MSXMASXSMMMAMAMXMAXXXAMMAAXMAMAAMMMSSMSMSMSXMXXAMAMASMMMMSSXMAAAXMMXMMSAMASAMXMAMXMXSMSMASMMSAMXMMSASXSMAMSMMASMAMASMMXSXAXAAXXMASXMAXXXAMAX"
+ "XMAMXMASMAMAMSMXXMMSSXMSMMSMAXMAMAAXMXMAAAXXASXSMXMAMAXAAMMAMMMXMASXAAMMSASMXSAMXMMXSXAMMXMMMMMMSASASAMMAMAASAMSXSASAMAMXMASXMXSXMMSMMAMMSSM"
+ "SMXMAMAMMAXAMAMAMSMAMXMMAMXMSMMASMSSMMSSXMMMXXAAAXMASXMMSXSAMMSAAMXMMMMAMMSASXSMXMAMMAMSMAMMAAAMAAMAMMMMAXSMMMMSMMXSAMASAMMAMMXAMXMAMXMSXAAX"
+ "MASMMMSSSSMMMASAAAMAMSMSAMSAMXSXXAAAMAAMMMXXAMSMMXSXMXXAAXSXSAMMSMAAXAMXSMSMAAXMXXSAMXMAMMXSSSSSMMMMMXMSSXMSAMXMASASAMAXASXAAMAMXXMASAAAMMMX"
+ "MAMAAAAXXMAXSMSMSXSXAAXXAMASXMXAXMXSMMMSAXSMMMXAMAMAMSXASXSXMASXAMASMXSXAAXXMXSXMAMXSSSXSXAMAMAXXAMMAMAAMXSSXMASMMMSMMMSMMMSMSAMXMXAMMSAMXSA"
+ "MXSSMMSSMXSXAAXMXMSMMSSSSMSMMAAMMSMMMXMMXSXAXASXMASAMSAMXAXMSAMXASXMXAXMMMMXSMSAMXMAMAMAXMMMAMAMMXMXAAMAMXMXSAMXXMMXXAAAXXAAXMAXXAMSXMXASAAM"
+ "AAMASAAXXAXXMMMAXAXSXAXAAXAAXMMXAAAAMAMAMXXAMXMASAXASMAMMAMAMASXXSAMSAMXXXMXXAMXMAMXMAMMMSXMSMMSAASXMSMMMMMASXMXSXSMSSSMSMSXSAMXXSAMASXMMMSM"
+ "MMSAMMSSMMSSMMMMMSMMMMSMMSSSMXSAMSSMSSMMMASMASMMMMSMMXAMXXMASXMMXMAMMMAMSAMXMSMMSASXAMSXAMMMAAXXXAXAAXAXSXXAXAXMSAAAMAAXXAAAAMAMAXAMAMXMAMAX"
+ "XXMXMAXAXAAMAAMAAAAAAMAMXXMAXAAMAMAMAXXMAXXMASMAAAAAXSXSXXSXSAAMMSAMXSAMXXMAAAXXMMAMXSAMASASMSMMSSSMMMSMAAASMMMAMSMMMSMMMXXXMMAASXMMSSMSMSAS"
+ "MXAMXXSAMMSSSMSMSXSMMMAXXMSSMSSSMSAMMSMMXSAMASMSMXSSMXMXXAMXMXMMASXSXMASASXMSSSXMXMMMXMAXXMMXXMAAXSAMAMMMMMXAXXSMMMSAMAMSMSMSSXMMAAAXAXAMMAM"
+ "SASASMMXMXMAXXAAXAXAMSXSAMAAMMAAXSAMAAAMASXMAXXAMXMXMMXSAMMXSAXMASXMXMAMXXAAAXXAMSMMMSXMSMSSSMMMSSXMMAMAXAXSAMMMMAAMAMAMAAAAXXMASMMMSAMXMMXM"
+ "MAMASXMMMMMMMMMSMSMAMAMMAMXSMMMMMSMMSSSMASMMMMSMSXSAXAMSASAAMSAMASMSASXSSSMMMSMMMAAAAAAXAXMAXAAMXMAASMSMAMAMXMAAMSSMSMSSMSMSMAAXSAMXXMSSXMAS"
+ "MAMXMASAAASASASAAASXMMSSXMAXXSAMAXMAMXMMMSASMASMMASXMXASAMMMSAMMASAMASAAAXXAXMAMSXSMSXMSMSMMMSXSAMMMSAAXSAMXAASMMAMAMAMXAAXAMXXMSAMXXMAMASAM"
+ "SMSASAMSSXSAMMSSXXXXMMAAAMXSASAMMSMMSXXAAMMMMXSAMAMMMMAMMMXSXMAXMSXMAMMMMMSMSSMMSXMXXAAAAAXXAAASAMAXMMMMMXSSXMAMXAMXMAAMSMSMSXSASAMXXMASAMXS"
+ "XSSXMAXXMMMXMXXMXSXMMMSMMMASXSMMAAAAAASMXMAAMMSAMASAXSAMSSSXMXMXXXAMXSXSAAMMAXXAMASASMMMXMMSMMMMMSXSAMMAMAXAMXXXXXXSAXXMXAMXAAMXXAMAASXSMSXA"
+ "SXMASXMMAAAAXAXMASMASAXAMXXSAXMMSSSMXXMASXSXSAXXMXMAXSAMAXXAMAXSMSAXAMAXMSSMAMMXSAMAAXSXMSXMAMXMAXMMAMSASMMMMSSXMMAXMASMSAMMMSMMSSMXXSMSAXAX"
+ "SAMXSMMMSMSSMSAMXXAXMASXMAMMXMSAMXXXMXXXSAMXMASXMSMSMSAMSSSMMAMSAAAMSMSMAAXMMSAMMMMMMMXMASASAMSMSMASAMMAXMAXAMAXXAMAXXXMSAMXXAAMAMMSXSAMXMAS"
+ "SAMAMAAMAXXMXXASMSSSMMMASAMMSMMMSAMXMMSMMMMXSXMAMAAMASXMAAAAAXSMSMSMXAAMMMSMMMMSXSAMXAMXSMMMXSAAXMAMXXMMMSSMMSMMSSXSSMMXSAMXSMSMASMSAMXMASAX"
+ "SAMXSMMSMSSMASXMASAAMMMXXASAMAAAXMAMSAAAAXMAXAAMSMSMMMMSMSSMMSMMMMMXMSMMSAAAAMSXMSASMSSMMAAXXSMSMMSSSXMAMXAAAXXAXXAAAXXAMXMASAXMASAMXMAMMMSX"
+ "SXMASAMSXAAMMSXMSMMMMMSSMAMASMMSSMAAMXSSMSSMSSMXAMXAMXXXXXAMMMAAXAAMXMAXMAMMMXSAMXMSAMXASXMXXMAMXXAAXAMXASMMMXMMSMXSSMXSXSMASMMSAMXMMSSSMAXS"
+ "MAMASXMXMSSMAMXMAMSMXAAAMMSXMXAAXMMXXAXAAAAXAASAMXSMMMMSSSMSASXMMMXSAMAMSSSMMASXMAMXMXMXMXAMSMXMXMMXMMSMMMSAAXSMMMAMXAMAASMXMXAMXSASXAAMMAMS"
+ "MAMMXMASAMXMXSASASASMMXSMAMXSMMXSXMAMXMAMSSMSXMXXMAMAAMAMAASASXSXMXSASMMMAAASXMSSXSAMXSXSXMASAMXSMSMAAAAXAMMMXSASXXXASXMAMSXAMXXMSAXMXSAMXSS"
+ "XXSXSXMAXMMSASMSXSMAMMMMMMSAMXSAMAMSSMASAMXMXAMXMSASMXSASMMMAMAMASMSMMAAMMMMMAAAXXMASAMXSAMAMSAMXAASMSSSXMSMXMSMMAXSSMMMMAMMXMAMXMSMMAMMSMXM"
+ "SXMXMAMAASAMXMASAXXAAAAMAXMAMAMASMMMAAAMAXMAXXMAMAAXMASAMAXMXMASAMMXXSMMSAXAMMMMMSSMMMSASXMAXMSSMSMSXXAMXMAMAMXXMXMSAAXSMAAAXMMXXAAXMXSAMXAS"
+ "AASMSAMSMMASXMAMMMSSSMXMSMMMMXSMMMXSAMMXXMASXMMSSMSMMXMMMSMSXSAMAXSXAMMSMMSMXAAXAMASAAMXSXSMSSMSXMMMMMMMMSASMSSXSMXSXMMXSASMMSAAMSMSMAXMMSXS"
+ "MXMAMSMXXSAMXMASAAXAAAMSMSAAAMXMASASAMXSSMMXAMAMAXMAMSASMXAAMMASMMSMMAXAAAAMSSMMMSAMMMSXMASMMXAMMSAAAASAAMASAAXAMXXSSSXAMXAAAMMMMAAAMXMSAMMS"
+ "SMMMMXXSAMASXSXSMSSSMMMAAMMMSAAMSMMSXMAAAXASAMXSMMSAMXAMXMAMXSAMAAXAXSSSSMMXAMXSAMAMXXMAMAMAMMAMASMXSMSAXSXMMMMMMSSMAXMXSMMMMSXMSMSMSAAMXSAX"
+ "AXAAMXAMMMASMMASAXAMMXSMSMSXXXSMXXXMXMSSMMXSMMXAMAMASMXMMXAXXMASMMSSMAAAAASMMSAMASMMSSSMMSSSMSAMXMXMXASMMMASXSXSAMXMAMSMMAXSAXAXSAAAMMSMAMMS"
+ "MSXSMMSMXMXMAMAMMMAMMXMAXAMXSAMXMMMXAMMAMXMSMMAXMAMMMXMAMSSSMSMMMAMMAAMMXAMXXMASXMXAXAAMXXAAASXSAMASMAMMAXMMMAAMMXMMSSXAMSAMXSMMSXMXMXMAAXXS"
+ "XMMMAAMMSXSMSMASXXMMXXMAMAMAMAMASXSSSSMMMAXMASMAXXXXAMMAMMASAASXMASXSAXXXSSSXSAMMMMSMSMMSMSMMXASXSAMMAMMAXSASMSMSXMAXAXSMXAXXAMXXASXSXXSXSMM"
+ "XXASMMSMSAMAMMMAMXSAMXMASAMXSASXSMXAAAMSSMMSAMXSMMXMASXSMMAMXMSXXASAMAXSAAAAMMMXAAAMMXXAAXAMXMMMMMMMSASMMXSASXMASAMMSAXMASMMSMMMSMMASAMXMMMX"
+ "XSMSAAAASXMAMASAXMAAMXMASAMXMMXAMXMMMMMAAMAMAMAMAASMXMAMAMXMSSMMSMMXAAMMMMMMMAMMSMSSMMMXSSMSSMAAXXAMXASXMAMMMAMAMMSAAMXMMAMASAAMSAMXMXMSMAAX"
+ "MMAMXSMMMSMXXAMXSASMSAMMMAXSMSXSMXAAASMSSMASAMASMMMMAMAMXSAMSASAAXXSMXSXXSAMMMSAMXMXXASMMMXMXSXXMMMSMSMMMMMASMMXSASMXSAMSAMAMMMXMAMAMAXXMMSM"
+ "XMAMXAMASMSSMSSMSXMASMSSSSMMAAAAASAMXSAXAMXSASXSXASXMMSMMMAMSAMSSSXXAAAMASAMXAMAXSAMXXXAAXASMXMSMSXAXMASAMSASMAXMASAAXAMMAMMSMSMMXSSSMMSMXMM"
+ "XMASMXXMASASAAMAXAMXMAAXXAAMXMMMASXMXMAMMAXSMMXXMASAXAXAAXAMMXMAXAASMMSMASAMMMSAMXAMMMSSMSMSAMXAAXAAMSXMAMMAMMXMMAMMMSXMMAMXAXMASXXMAAAASAAA"
+ "MSXMMMXXMMSMMMXMSSMSMMMSMSSMAMXSAMASXMMAXXMXMXMMAMXMMXXSMSSSSSMSSMAMAAXMASAMXMMXSMMASMAMAMAXMAMMXMMMAASMXMSMMMXSMXSAAAMAXXMMSSXSMXASXMMASMSM"
+ "MAXSAMSMXXAMMSAMMMASXMXXMAXMASAMASAAXMAMXAMMSAASXMMAASMXAAAXAAAAAXASMMSMXSAMXSAXMASAMMAMAMXMXSAMXMSASMMMMXAAAAMSXMMMXSAAMSSMMSXAXSXMXSXMXAXX"
+ "MMMSASAXASXSAXMSMMAMAMSAMSSMMMMMMMMMAMASMMXASAMAAASMMMASXMMMSMMMSSMMXAMXAMASAMMMSAMASXMSMXXXMMXSAAAMXXMAMSSSMSXSASXSAMMASAAAASMSMSAMXMAXSXMM"
+ ...)
+clj꞉user꞉> 
+2434
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+#function[user/all-a]
+clj꞉user꞉> 
+([0 4]
+ [0 15]
+ [0 21]
+ [0 25]
+ [0 28]
+ [0 31]
+ [0 35]
+ [0 43]
+ [0 47]
+ [0 53]
+ [0 61]
+ [0 66]
+ [0 69]
+ [0 75]
+ [0 81]
+ [0 87]
+ [0 92]
+ [0 95]
+ [0 100]
+ [0 118]
+ [0 123]
+ [0 125]
+ [0 136]
+ [1 10]
+ [1 11]
+ [1 13]
+ [1 17]
+ [1 34]
+ [1 49]
+ [1 50]
+ [1 53]
+ [1 54]
+ [1 55]
+ [1 62]
+ [1 63]
+ [1 70]
+ [1 78]
+ [1 79]
+ [1 81]
+ [1 85]
+ [1 89]
+ [1 91]
+ [1 95]
+ [1 102]
+ [1 105]
+ [1 108]
+ [1 110]
+ [1 111]
+ [1 113]
+ [1 114]
+ ...)
+clj꞉user꞉> 
+#'user/not_edge
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+([1 10]
+ [1 11]
+ [1 13]
+ [1 17]
+ [1 34]
+ [1 49]
+ [1 50]
+ [1 53]
+ [1 54]
+ [1 55]
+ [1 62]
+ [1 63]
+ [1 70]
+ [1 78]
+ [1 79]
+ [1 81]
+ [1 85]
+ [1 89]
+ [1 91]
+ [1 95]
+ [1 102]
+ [1 105]
+ [1 108]
+ [1 110]
+ [1 111]
+ [1 113]
+ [1 114]
+ [1 116]
+ [1 121]
+ [1 123]
+ [1 125]
+ [1 128]
+ [1 130]
+ [1 131]
+ [1 133]
+ [1 136]
+ [1 138]
+ [2 1]
+ [2 2]
+ [2 3]
+ [2 4]
+ [2 7]
+ [2 8]
+ [2 15]
+ [2 17]
+ [2 19]
+ [2 21]
+ [2 22]
+ [2 23]
+ [2 24]
+ ...)
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:58:34).
+; Unable to resolve symbol: get_cross in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:58:34).
+; Unable to resolve symbol: get_cross in this context
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/not_edge
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+([1 10]
+ [1 11]
+ [1 13]
+ [1 17]
+ [1 34]
+ [1 49]
+ [1 50]
+ [1 53]
+ [1 54]
+ [1 55]
+ [1 62]
+ [1 63]
+ [1 70]
+ [1 78]
+ [1 79]
+ [1 81]
+ [1 85]
+ [1 89]
+ [1 91]
+ [1 95]
+ [1 102]
+ [1 105]
+ [1 108]
+ [1 110]
+ [1 111]
+ [1 113]
+ [1 114]
+ [1 116]
+ [1 121]
+ [1 123]
+ [1 125]
+ [1 128]
+ [1 130]
+ [1 131]
+ [1 133]
+ [1 136]
+ [1 138]
+ [2 1]
+ [2 2]
+ [2 3]
+ [2 4]
+ [2 7]
+ [2 8]
+ [2 15]
+ [2 17]
+ [2 19]
+ [2 21]
+ [2 22]
+ [2 23]
+ [2 24]
+ ...)
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+([1 10]
+ [1 11]
+ [1 13]
+ [1 17]
+ [1 34]
+ [1 49]
+ [1 50]
+ [1 53]
+ [1 54]
+ [1 55]
+ [1 62]
+ [1 63]
+ [1 70]
+ [1 78]
+ [1 79]
+ [1 81]
+ [1 85]
+ [1 89]
+ [1 91]
+ [1 95]
+ [1 102]
+ [1 105]
+ [1 108]
+ [1 110]
+ [1 111]
+ [1 113]
+ [1 114]
+ [1 116]
+ [1 121]
+ [1 123]
+ [1 125]
+ [1 128]
+ [1 130]
+ [1 131]
+ [1 133]
+ [1 136]
+ [1 138]
+ [2 1]
+ [2 2]
+ [2 3]
+ [2 4]
+ [2 7]
+ [2 8]
+ [2 15]
+ [2 17]
+ [2 19]
+ [2 21]
+ [2 22]
+ [2 23]
+ [2 24]
+ ...)
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+()
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+()
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/all-a$iter$fn$iter$fn$fn (form-init11515184500665957990.clj:41).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+()
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+([1 10]
+ [1 11]
+ [1 13]
+ [1 17]
+ [1 34]
+ [1 49]
+ [1 50]
+ [1 53]
+ [1 54]
+ [1 55]
+ [1 62]
+ [1 63]
+ [1 70]
+ [1 78]
+ [1 79]
+ [1 81]
+ [1 85]
+ [1 89]
+ [1 91]
+ [1 95]
+ [1 102]
+ [1 105]
+ [1 108]
+ [1 110]
+ [1 111]
+ [1 113]
+ [1 114]
+ [1 116]
+ [1 121]
+ [1 123]
+ [1 125]
+ [1 128]
+ [1 130]
+ [1 131]
+ [1 133]
+ [1 136]
+ [1 138]
+ [2 1]
+ [2 2]
+ [2 3]
+ [2 4]
+ [2 7]
+ [2 8]
+ [2 15]
+ [2 17]
+ [2 19]
+ [2 21]
+ [2 22]
+ [2 23]
+ [2 24]
+ ...)
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+139
+clj꞉user꞉> 
+10
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:47).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/get-cross (form-init11515184500665957990.clj:48).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+[2 0]
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+((2 9)
+ (2 10)
+ (2 12)
+ (2 16)
+ (2 33)
+ (2 48)
+ (2 49)
+ (2 52)
+ (2 53)
+ (2 54)
+ (2 61)
+ (2 62)
+ (2 69)
+ (2 77)
+ (2 78)
+ (2 80)
+ (2 84)
+ (2 88)
+ (2 90)
+ (2 94)
+ (2 101)
+ (2 104)
+ (2 107)
+ (2 109)
+ (2 110)
+ (2 112)
+ (2 113)
+ (2 115)
+ (2 120)
+ (2 122)
+ (2 124)
+ (2 127)
+ (2 129)
+ (2 130)
+ (2 132)
+ (2 135)
+ (2 137)
+ (3 0)
+ (3 1)
+ (3 2)
+ (3 3)
+ (3 6)
+ (3 7)
+ (3 14)
+ (3 16)
+ (3 18)
+ (3 20)
+ (3 21)
+ (3 22)
+ (3 23)
+ ...)
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+((2 9)
+ (2 10)
+ (2 12)
+ (2 16)
+ (2 33)
+ (2 48)
+ (2 49)
+ (2 52)
+ (2 53)
+ (2 54)
+ (2 61)
+ (2 62)
+ (2 69)
+ (2 77)
+ (2 78)
+ (2 80)
+ (2 84)
+ (2 88)
+ (2 90)
+ (2 94)
+ (2 101)
+ (2 104)
+ (2 107)
+ (2 109)
+ (2 110)
+ (2 112)
+ (2 113)
+ (2 115)
+ (2 120)
+ (2 122)
+ (2 124)
+ (2 127)
+ (2 129)
+ (2 130)
+ (2 132)
+ (2 135)
+ (2 137)
+ (3 0)
+ (3 1)
+ (3 2)
+ (3 3)
+ (3 6)
+ (3 7)
+ (3 14)
+ (3 16)
+ (3 18)
+ (3 20)
+ (3 21)
+ (3 22)
+ (3 23)
+ ...)
+clj꞉user꞉> 
+(2 0)
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+((((0 9) [1 10] (2 9)) ((0 11) [1 10] (2 9)))
+ (((0 10) [1 11] (2 10)) ((0 12) [1 11] (2 10)))
+ (((0 12) [1 13] (2 12)) ((0 14) [1 13] (2 12)))
+ (((0 16) [1 17] (2 16)) ((0 18) [1 17] (2 16)))
+ (((0 33) [1 34] (2 33)) ((0 35) [1 34] (2 33)))
+ (((0 48) [1 49] (2 48)) ((0 50) [1 49] (2 48)))
+ (((0 49) [1 50] (2 49)) ((0 51) [1 50] (2 49)))
+ (((0 52) [1 53] (2 52)) ((0 54) [1 53] (2 52)))
+ (((0 53) [1 54] (2 53)) ((0 55) [1 54] (2 53)))
+ (((0 54) [1 55] (2 54)) ((0 56) [1 55] (2 54)))
+ (((0 61) [1 62] (2 61)) ((0 63) [1 62] (2 61)))
+ (((0 62) [1 63] (2 62)) ((0 64) [1 63] (2 62)))
+ (((0 69) [1 70] (2 69)) ((0 71) [1 70] (2 69)))
+ (((0 77) [1 78] (2 77)) ((0 79) [1 78] (2 77)))
+ (((0 78) [1 79] (2 78)) ((0 80) [1 79] (2 78)))
+ (((0 80) [1 81] (2 80)) ((0 82) [1 81] (2 80)))
+ (((0 84) [1 85] (2 84)) ((0 86) [1 85] (2 84)))
+ (((0 88) [1 89] (2 88)) ((0 90) [1 89] (2 88)))
+ (((0 90) [1 91] (2 90)) ((0 92) [1 91] (2 90)))
+ (((0 94) [1 95] (2 94)) ((0 96) [1 95] (2 94)))
+ (((0 101) [1 102] (2 101)) ((0 103) [1 102] (2 101)))
+ (((0 104) [1 105] (2 104)) ((0 106) [1 105] (2 104)))
+ (((0 107) [1 108] (2 107)) ((0 109) [1 108] (2 107)))
+ (((0 109) [1 110] (2 109)) ((0 111) [1 110] (2 109)))
+ (((0 110) [1 111] (2 110)) ((0 112) [1 111] (2 110)))
+ (((0 112) [1 113] (2 112)) ((0 114) [1 113] (2 112)))
+ (((0 113) [1 114] (2 113)) ((0 115) [1 114] (2 113)))
+ (((0 115) [1 116] (2 115)) ((0 117) [1 116] (2 115)))
+ (((0 120) [1 121] (2 120)) ((0 122) [1 121] (2 120)))
+ (((0 122) [1 123] (2 122)) ((0 124) [1 123] (2 122)))
+ (((0 124) [1 125] (2 124)) ((0 126) [1 125] (2 124)))
+ (((0 127) [1 128] (2 127)) ((0 129) [1 128] (2 127)))
+ (((0 129) [1 130] (2 129)) ((0 131) [1 130] (2 129)))
+ (((0 130) [1 131] (2 130)) ((0 132) [1 131] (2 130)))
+ (((0 132) [1 133] (2 132)) ((0 134) [1 133] (2 132)))
+ (((0 135) [1 136] (2 135)) ((0 137) [1 136] (2 135)))
+ (((0 137) [1 138] (2 137)) ((0 139) [1 138] (2 137)))
+ (((1 0) [2 1] (3 0)) ((1 2) [2 1] (3 0)))
+ (((1 1) [2 2] (3 1)) ((1 3) [2 2] (3 1)))
+ (((1 2) [2 3] (3 2)) ((1 4) [2 3] (3 2)))
+ (((1 3) [2 4] (3 3)) ((1 5) [2 4] (3 3)))
+ (((1 6) [2 7] (3 6)) ((1 8) [2 7] (3 6)))
+ (((1 7) [2 8] (3 7)) ((1 9) [2 8] (3 7)))
+ (((1 14) [2 15] (3 14)) ((1 16) [2 15] (3 14)))
+ (((1 16) [2 17] (3 16)) ((1 18) [2 17] (3 16)))
+ (((1 18) [2 19] (3 18)) ((1 20) [2 19] (3 18)))
+ (((1 20) [2 21] (3 20)) ((1 22) [2 21] (3 20)))
+ (((1 21) [2 22] (3 21)) ((1 23) [2 22] (3 21)))
+ (((1 22) [2 23] (3 22)) ((1 24) [2 23] (3 22)))
+ (((1 23) [2 24] (3 23)) ((1 25) [2 24] (3 23)))
+ ...)
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+((((0 9) (1 10) (2 9)) ((0 11) (1 10) (2 9)))
+ (((0 10) (1 11) (2 10)) ((0 12) (1 11) (2 10)))
+ (((0 12) (1 13) (2 12)) ((0 14) (1 13) (2 12)))
+ (((0 16) (1 17) (2 16)) ((0 18) (1 17) (2 16)))
+ (((0 33) (1 34) (2 33)) ((0 35) (1 34) (2 33)))
+ (((0 48) (1 49) (2 48)) ((0 50) (1 49) (2 48)))
+ (((0 49) (1 50) (2 49)) ((0 51) (1 50) (2 49)))
+ (((0 52) (1 53) (2 52)) ((0 54) (1 53) (2 52)))
+ (((0 53) (1 54) (2 53)) ((0 55) (1 54) (2 53)))
+ (((0 54) (1 55) (2 54)) ((0 56) (1 55) (2 54)))
+ (((0 61) (1 62) (2 61)) ((0 63) (1 62) (2 61)))
+ (((0 62) (1 63) (2 62)) ((0 64) (1 63) (2 62)))
+ (((0 69) (1 70) (2 69)) ((0 71) (1 70) (2 69)))
+ (((0 77) (1 78) (2 77)) ((0 79) (1 78) (2 77)))
+ (((0 78) (1 79) (2 78)) ((0 80) (1 79) (2 78)))
+ (((0 80) (1 81) (2 80)) ((0 82) (1 81) (2 80)))
+ (((0 84) (1 85) (2 84)) ((0 86) (1 85) (2 84)))
+ (((0 88) (1 89) (2 88)) ((0 90) (1 89) (2 88)))
+ (((0 90) (1 91) (2 90)) ((0 92) (1 91) (2 90)))
+ (((0 94) (1 95) (2 94)) ((0 96) (1 95) (2 94)))
+ (((0 101) (1 102) (2 101)) ((0 103) (1 102) (2 101)))
+ (((0 104) (1 105) (2 104)) ((0 106) (1 105) (2 104)))
+ (((0 107) (1 108) (2 107)) ((0 109) (1 108) (2 107)))
+ (((0 109) (1 110) (2 109)) ((0 111) (1 110) (2 109)))
+ (((0 110) (1 111) (2 110)) ((0 112) (1 111) (2 110)))
+ (((0 112) (1 113) (2 112)) ((0 114) (1 113) (2 112)))
+ (((0 113) (1 114) (2 113)) ((0 115) (1 114) (2 113)))
+ (((0 115) (1 116) (2 115)) ((0 117) (1 116) (2 115)))
+ (((0 120) (1 121) (2 120)) ((0 122) (1 121) (2 120)))
+ (((0 122) (1 123) (2 122)) ((0 124) (1 123) (2 122)))
+ (((0 124) (1 125) (2 124)) ((0 126) (1 125) (2 124)))
+ (((0 127) (1 128) (2 127)) ((0 129) (1 128) (2 127)))
+ (((0 129) (1 130) (2 129)) ((0 131) (1 130) (2 129)))
+ (((0 130) (1 131) (2 130)) ((0 132) (1 131) (2 130)))
+ (((0 132) (1 133) (2 132)) ((0 134) (1 133) (2 132)))
+ (((0 135) (1 136) (2 135)) ((0 137) (1 136) (2 135)))
+ (((0 137) (1 138) (2 137)) ((0 139) (1 138) (2 137)))
+ (((1 0) (2 1) (3 0)) ((1 2) (2 1) (3 0)))
+ (((1 1) (2 2) (3 1)) ((1 3) (2 2) (3 1)))
+ (((1 2) (2 3) (3 2)) ((1 4) (2 3) (3 2)))
+ (((1 3) (2 4) (3 3)) ((1 5) (2 4) (3 3)))
+ (((1 6) (2 7) (3 6)) ((1 8) (2 7) (3 6)))
+ (((1 7) (2 8) (3 7)) ((1 9) (2 8) (3 7)))
+ (((1 14) (2 15) (3 14)) ((1 16) (2 15) (3 14)))
+ (((1 16) (2 17) (3 16)) ((1 18) (2 17) (3 16)))
+ (((1 18) (2 19) (3 18)) ((1 20) (2 19) (3 18)))
+ (((1 20) (2 21) (3 20)) ((1 22) (2 21) (3 20)))
+ (((1 21) (2 22) (3 21)) ((1 23) (2 22) (3 21)))
+ (((1 22) (2 23) (3 22)) ((1 24) (2 23) (3 22)))
+ (((1 23) (2 24) (3 23)) ((1 25) (2 24) (3 23)))
+ ...)
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+([[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 10 1]]
+   (1 10)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 10 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 10 1]]
+   (1 10)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 10 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 11 1]]
+   (1 11)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 11 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 11 1]]
+   (1 11)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 11 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 13 1]]
+   (1 13)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 13 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 13 1]]
+   (1 13)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 13 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 17 1]]
+   (1 17)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 17 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 17 1]]
+   (1 17)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 17 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 34 1]]
+   (1 34)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 34 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 34 1]]
+   (1 34)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 34 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 49 1]]
+   (1 49)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 49 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 49 1]]
+   (1 49)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 49 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 50 1]]
+   (1 50)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 50 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 50 1]]
+   (1 50)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 50 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 53 1]]
+   (1 53)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 53 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 53 1]]
+   (1 53)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 53 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 54 1]]
+   (1 54)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 54 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 54 1]]
+   (1 54)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 54 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 55 1]]
+   (1 55)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 55 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 55 1]]
+   (1 55)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 55 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 62 1]]
+   (1 62)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 62 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 62 1]]
+   (1 62)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 62 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 63 1]]
+   (1 63)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 63 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 63 1]]
+   (1 63)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 63 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 70 1]]
+   (1 70)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 70 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 70 1]]
+   (1 70)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 70 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 78 1]]
+   (1 78)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 78 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 78 1]]
+   (1 78)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 78 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 79 1]]
+   (1 79)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 79 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 79 1]]
+   (1 79)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 79 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 81 1]]
+   (1 81)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 81 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 81 1]]
+   (1 81)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 81 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 85 1]]
+   (1 85)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 85 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 85 1]]
+   (1 85)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 85 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 89 1]]
+   (1 89)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 89 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 89 1]]
+   (1 89)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 89 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 91 1]]
+   (1 91)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 91 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 91 1]]
+   (1 91)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 91 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 95 1]]
+   (1 95)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 95 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 95 1]]
+   (1 95)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 95 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 102 1]]
+   (1 102)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 102 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 102 1]]
+   (1 102)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 102 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 105 1]]
+   (1 105)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 105 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 105 1]]
+   (1 105)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 105 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 108 1]]
+   (1 108)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 108 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 108 1]]
+   (1 108)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 108 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 110 1]]
+   (1 110)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 110 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 110 1]]
+   (1 110)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 110 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 111 1]]
+   (1 111)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 111 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 111 1]]
+   (1 111)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 111 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 113 1]]
+   (1 113)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 113 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 113 1]]
+   (1 113)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 113 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 114 1]]
+   (1 114)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 114 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 114 1]]
+   (1 114)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 114 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 116 1]]
+   (1 116)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 116 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 116 1]]
+   (1 116)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 116 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 121 1]]
+   (1 121)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 121 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 121 1]]
+   (1 121)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 121 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 123 1]]
+   (1 123)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 123 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 123 1]]
+   (1 123)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 123 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 125 1]]
+   (1 125)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 125 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 125 1]]
+   (1 125)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 125 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 128 1]]
+   (1 128)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 128 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 128 1]]
+   (1 128)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 128 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 130 1]]
+   (1 130)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 130 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 130 1]]
+   (1 130)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 130 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 131 1]]
+   (1 131)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 131 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 131 1]]
+   (1 131)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 131 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 133 1]]
+   (1 133)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 133 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 133 1]]
+   (1 133)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 133 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 136 1]]
+   (1 136)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 136 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 136 1]]
+   (1 136)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 136 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 138 1]]
+   (1 138)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 138 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 138 1]]
+   (1 138)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 138 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 1 1]]
+   (2 1)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 1 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 1 1]]
+   (2 1)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 1 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 2 1]]
+   (2 2)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 2 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 2 1]]
+   (2 2)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 2 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 3 1]]
+   (2 3)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 3 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 3 1]]
+   (2 3)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 3 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 4 1]]
+   (2 4)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 4 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 4 1]]
+   (2 4)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 4 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 7 1]]
+   (2 7)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 7 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 7 1]]
+   (2 7)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 7 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 8 1]]
+   (2 8)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 8 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 8 1]]
+   (2 8)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 8 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 15 1]]
+   (2 15)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 15 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 15 1]]
+   (2 15)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 15 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 17 1]]
+   (2 17)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 17 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 17 1]]
+   (2 17)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 17 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 19 1]]
+   (2 19)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 19 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 19 1]]
+   (2 19)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 19 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 21 1]]
+   (2 21)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 21 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 21 1]]
+   (2 21)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 21 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 22 1]]
+   (2 22)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 22 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 22 1]]
+   (2 22)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 22 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 23 1]]
+   (2 23)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 23 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 23 1]]
+   (2 23)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 23 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 24 1]]
+   (2 24)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 24 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 24 1]]
+   (2 24)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 24 1]]]]
+ ...)
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+([[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 10 1]]
+   (1 10)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 10 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 10 1]]
+   (1 10)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 10 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 11 1]]
+   (1 11)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 11 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 11 1]]
+   (1 11)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 11 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 13 1]]
+   (1 13)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 13 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 13 1]]
+   (1 13)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 13 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 17 1]]
+   (1 17)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 17 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 17 1]]
+   (1 17)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 17 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 34 1]]
+   (1 34)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 34 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 34 1]]
+   (1 34)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 34 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 49 1]]
+   (1 49)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 49 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 49 1]]
+   (1 49)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 49 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 50 1]]
+   (1 50)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 50 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 50 1]]
+   (1 50)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 50 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 53 1]]
+   (1 53)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 53 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 53 1]]
+   (1 53)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 53 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 54 1]]
+   (1 54)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 54 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 54 1]]
+   (1 54)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 54 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 55 1]]
+   (1 55)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 55 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 55 1]]
+   (1 55)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 55 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 62 1]]
+   (1 62)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 62 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 62 1]]
+   (1 62)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 62 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 63 1]]
+   (1 63)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 63 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 63 1]]
+   (1 63)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 63 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 70 1]]
+   (1 70)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 70 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 70 1]]
+   (1 70)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 70 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 78 1]]
+   (1 78)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 78 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 78 1]]
+   (1 78)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 78 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 79 1]]
+   (1 79)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 79 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 79 1]]
+   (1 79)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 79 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 81 1]]
+   (1 81)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 81 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 81 1]]
+   (1 81)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 81 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 85 1]]
+   (1 85)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 85 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 85 1]]
+   (1 85)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 85 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 89 1]]
+   (1 89)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 89 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 89 1]]
+   (1 89)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 89 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 91 1]]
+   (1 91)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 91 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 91 1]]
+   (1 91)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 91 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 95 1]]
+   (1 95)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 95 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 95 1]]
+   (1 95)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 95 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 102 1]]
+   (1 102)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 102 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 102 1]]
+   (1 102)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 102 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 105 1]]
+   (1 105)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 105 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 105 1]]
+   (1 105)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 105 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 108 1]]
+   (1 108)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 108 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 108 1]]
+   (1 108)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 108 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 110 1]]
+   (1 110)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 110 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 110 1]]
+   (1 110)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 110 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 111 1]]
+   (1 111)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 111 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 111 1]]
+   (1 111)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 111 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 113 1]]
+   (1 113)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 113 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 113 1]]
+   (1 113)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 113 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 114 1]]
+   (1 114)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 114 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 114 1]]
+   (1 114)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 114 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 116 1]]
+   (1 116)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 116 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 116 1]]
+   (1 116)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 116 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 121 1]]
+   (1 121)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 121 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 121 1]]
+   (1 121)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 121 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 123 1]]
+   (1 123)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 123 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 123 1]]
+   (1 123)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 123 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 125 1]]
+   (1 125)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 125 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 125 1]]
+   (1 125)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 125 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 128 1]]
+   (1 128)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 128 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 128 1]]
+   (1 128)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 128 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 130 1]]
+   (1 130)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 130 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 130 1]]
+   (1 130)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 130 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 131 1]]
+   (1 131)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 131 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 131 1]]
+   (1 131)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 131 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 133 1]]
+   (1 133)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 133 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 133 1]]
+   (1 133)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 133 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 136 1]]
+   (1 136)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 136 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 136 1]]
+   (1 136)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 136 1]]]]
+ [[[[#function[clojure.core/-] 1 1] [#function[clojure.core/-] 138 1]]
+   (1 138)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 138 1]]]
+  [[[#function[clojure.core/-] 1 1] [#function[clojure.core/+] 138 1]]
+   (1 138)
+   [[#function[clojure.core/+] 1 1] [#function[clojure.core/-] 138 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 1 1]]
+   (2 1)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 1 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 1 1]]
+   (2 1)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 1 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 2 1]]
+   (2 2)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 2 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 2 1]]
+   (2 2)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 2 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 3 1]]
+   (2 3)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 3 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 3 1]]
+   (2 3)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 3 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 4 1]]
+   (2 4)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 4 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 4 1]]
+   (2 4)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 4 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 7 1]]
+   (2 7)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 7 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 7 1]]
+   (2 7)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 7 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 8 1]]
+   (2 8)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 8 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 8 1]]
+   (2 8)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 8 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 15 1]]
+   (2 15)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 15 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 15 1]]
+   (2 15)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 15 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 17 1]]
+   (2 17)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 17 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 17 1]]
+   (2 17)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 17 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 19 1]]
+   (2 19)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 19 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 19 1]]
+   (2 19)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 19 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 21 1]]
+   (2 21)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 21 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 21 1]]
+   (2 21)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 21 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 22 1]]
+   (2 22)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 22 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 22 1]]
+   (2 22)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 22 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 23 1]]
+   (2 23)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 23 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 23 1]]
+   (2 23)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 23 1]]]]
+ [[[[#function[clojure.core/-] 2 1] [#function[clojure.core/-] 24 1]]
+   (2 24)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 24 1]]]
+  [[[#function[clojure.core/-] 2 1] [#function[clojure.core/+] 24 1]]
+   (2 24)
+   [[#function[clojure.core/+] 2 1] [#function[clojure.core/-] 24 1]]]]
+ ...)
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+([[[0 9] (1 10) [2 9]] [[0 11] (1 10) [2 9]]]
+ [[[0 10] (1 11) [2 10]] [[0 12] (1 11) [2 10]]]
+ [[[0 12] (1 13) [2 12]] [[0 14] (1 13) [2 12]]]
+ [[[0 16] (1 17) [2 16]] [[0 18] (1 17) [2 16]]]
+ [[[0 33] (1 34) [2 33]] [[0 35] (1 34) [2 33]]]
+ [[[0 48] (1 49) [2 48]] [[0 50] (1 49) [2 48]]]
+ [[[0 49] (1 50) [2 49]] [[0 51] (1 50) [2 49]]]
+ [[[0 52] (1 53) [2 52]] [[0 54] (1 53) [2 52]]]
+ [[[0 53] (1 54) [2 53]] [[0 55] (1 54) [2 53]]]
+ [[[0 54] (1 55) [2 54]] [[0 56] (1 55) [2 54]]]
+ [[[0 61] (1 62) [2 61]] [[0 63] (1 62) [2 61]]]
+ [[[0 62] (1 63) [2 62]] [[0 64] (1 63) [2 62]]]
+ [[[0 69] (1 70) [2 69]] [[0 71] (1 70) [2 69]]]
+ [[[0 77] (1 78) [2 77]] [[0 79] (1 78) [2 77]]]
+ [[[0 78] (1 79) [2 78]] [[0 80] (1 79) [2 78]]]
+ [[[0 80] (1 81) [2 80]] [[0 82] (1 81) [2 80]]]
+ [[[0 84] (1 85) [2 84]] [[0 86] (1 85) [2 84]]]
+ [[[0 88] (1 89) [2 88]] [[0 90] (1 89) [2 88]]]
+ [[[0 90] (1 91) [2 90]] [[0 92] (1 91) [2 90]]]
+ [[[0 94] (1 95) [2 94]] [[0 96] (1 95) [2 94]]]
+ [[[0 101] (1 102) [2 101]] [[0 103] (1 102) [2 101]]]
+ [[[0 104] (1 105) [2 104]] [[0 106] (1 105) [2 104]]]
+ [[[0 107] (1 108) [2 107]] [[0 109] (1 108) [2 107]]]
+ [[[0 109] (1 110) [2 109]] [[0 111] (1 110) [2 109]]]
+ [[[0 110] (1 111) [2 110]] [[0 112] (1 111) [2 110]]]
+ [[[0 112] (1 113) [2 112]] [[0 114] (1 113) [2 112]]]
+ [[[0 113] (1 114) [2 113]] [[0 115] (1 114) [2 113]]]
+ [[[0 115] (1 116) [2 115]] [[0 117] (1 116) [2 115]]]
+ [[[0 120] (1 121) [2 120]] [[0 122] (1 121) [2 120]]]
+ [[[0 122] (1 123) [2 122]] [[0 124] (1 123) [2 122]]]
+ [[[0 124] (1 125) [2 124]] [[0 126] (1 125) [2 124]]]
+ [[[0 127] (1 128) [2 127]] [[0 129] (1 128) [2 127]]]
+ [[[0 129] (1 130) [2 129]] [[0 131] (1 130) [2 129]]]
+ [[[0 130] (1 131) [2 130]] [[0 132] (1 131) [2 130]]]
+ [[[0 132] (1 133) [2 132]] [[0 134] (1 133) [2 132]]]
+ [[[0 135] (1 136) [2 135]] [[0 137] (1 136) [2 135]]]
+ [[[0 137] (1 138) [2 137]] [[0 139] (1 138) [2 137]]]
+ [[[1 0] (2 1) [3 0]] [[1 2] (2 1) [3 0]]]
+ [[[1 1] (2 2) [3 1]] [[1 3] (2 2) [3 1]]]
+ [[[1 2] (2 3) [3 2]] [[1 4] (2 3) [3 2]]]
+ [[[1 3] (2 4) [3 3]] [[1 5] (2 4) [3 3]]]
+ [[[1 6] (2 7) [3 6]] [[1 8] (2 7) [3 6]]]
+ [[[1 7] (2 8) [3 7]] [[1 9] (2 8) [3 7]]]
+ [[[1 14] (2 15) [3 14]] [[1 16] (2 15) [3 14]]]
+ [[[1 16] (2 17) [3 16]] [[1 18] (2 17) [3 16]]]
+ [[[1 18] (2 19) [3 18]] [[1 20] (2 19) [3 18]]]
+ [[[1 20] (2 21) [3 20]] [[1 22] (2 21) [3 20]]]
+ [[[1 21] (2 22) [3 21]] [[1 23] (2 22) [3 21]]]
+ [[[1 22] (2 23) [3 22]] [[1 24] (2 23) [3 22]]]
+ [[[1 23] (2 24) [3 23]] [[1 25] (2 24) [3 23]]]
+ ...)
+clj꞉user꞉> 
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in: (cd /Users/fung/Documents/GAOC/clojure-2024; lein update-in :dependencies conj '[nrepl,"1.1.1"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.47.1"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless)
+; Using host:port 127.0.0.1:56044 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉clojure-2024.core꞉> 
+; Jack-in done.
+clj꞉clojure-2024.core꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/not_edge
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:65:1).
+; Unable to resolve symbol: all_a in this context
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:56:8).
+; No such namespace: str
+clj꞉user꞉> 
+#'user/all_a
+clj꞉user꞉> 
+#'user/get_cross
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:56:8).
+; No such namespace: str
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:58:13).
+; Unable to resolve symbol: grid in this context
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/get_strings
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+([[[0 9] [1 10] [2 9]] [[0 11] [1 10] [2 9]]]
+ [[[0 10] [1 11] [2 10]] [[0 12] [1 11] [2 10]]]
+ [[[0 12] [1 13] [2 12]] [[0 14] [1 13] [2 12]]]
+ [[[0 16] [1 17] [2 16]] [[0 18] [1 17] [2 16]]]
+ [[[0 33] [1 34] [2 33]] [[0 35] [1 34] [2 33]]]
+ [[[0 48] [1 49] [2 48]] [[0 50] [1 49] [2 48]]]
+ [[[0 49] [1 50] [2 49]] [[0 51] [1 50] [2 49]]]
+ [[[0 52] [1 53] [2 52]] [[0 54] [1 53] [2 52]]]
+ [[[0 53] [1 54] [2 53]] [[0 55] [1 54] [2 53]]]
+ [[[0 54] [1 55] [2 54]] [[0 56] [1 55] [2 54]]]
+ [[[0 61] [1 62] [2 61]] [[0 63] [1 62] [2 61]]]
+ [[[0 62] [1 63] [2 62]] [[0 64] [1 63] [2 62]]]
+ [[[0 69] [1 70] [2 69]] [[0 71] [1 70] [2 69]]]
+ [[[0 77] [1 78] [2 77]] [[0 79] [1 78] [2 77]]]
+ [[[0 78] [1 79] [2 78]] [[0 80] [1 79] [2 78]]]
+ [[[0 80] [1 81] [2 80]] [[0 82] [1 81] [2 80]]]
+ [[[0 84] [1 85] [2 84]] [[0 86] [1 85] [2 84]]]
+ [[[0 88] [1 89] [2 88]] [[0 90] [1 89] [2 88]]]
+ [[[0 90] [1 91] [2 90]] [[0 92] [1 91] [2 90]]]
+ [[[0 94] [1 95] [2 94]] [[0 96] [1 95] [2 94]]]
+ [[[0 101] [1 102] [2 101]] [[0 103] [1 102] [2 101]]]
+ [[[0 104] [1 105] [2 104]] [[0 106] [1 105] [2 104]]]
+ [[[0 107] [1 108] [2 107]] [[0 109] [1 108] [2 107]]]
+ [[[0 109] [1 110] [2 109]] [[0 111] [1 110] [2 109]]]
+ [[[0 110] [1 111] [2 110]] [[0 112] [1 111] [2 110]]]
+ [[[0 112] [1 113] [2 112]] [[0 114] [1 113] [2 112]]]
+ [[[0 113] [1 114] [2 113]] [[0 115] [1 114] [2 113]]]
+ [[[0 115] [1 116] [2 115]] [[0 117] [1 116] [2 115]]]
+ [[[0 120] [1 121] [2 120]] [[0 122] [1 121] [2 120]]]
+ [[[0 122] [1 123] [2 122]] [[0 124] [1 123] [2 122]]]
+ [[[0 124] [1 125] [2 124]] [[0 126] [1 125] [2 124]]]
+ [[[0 127] [1 128] [2 127]] [[0 129] [1 128] [2 127]]]
+ [[[0 129] [1 130] [2 129]] [[0 131] [1 130] [2 129]]]
+ [[[0 130] [1 131] [2 130]] [[0 132] [1 131] [2 130]]]
+ [[[0 132] [1 133] [2 132]] [[0 134] [1 133] [2 132]]]
+ [[[0 135] [1 136] [2 135]] [[0 137] [1 136] [2 135]]]
+ [[[0 137] [1 138] [2 137]] [[0 139] [1 138] [2 137]]]
+ [[[1 0] [2 1] [3 0]] [[1 2] [2 1] [3 0]]]
+ [[[1 1] [2 2] [3 1]] [[1 3] [2 2] [3 1]]]
+ [[[1 2] [2 3] [3 2]] [[1 4] [2 3] [3 2]]]
+ [[[1 3] [2 4] [3 3]] [[1 5] [2 4] [3 3]]]
+ [[[1 6] [2 7] [3 6]] [[1 8] [2 7] [3 6]]]
+ [[[1 7] [2 8] [3 7]] [[1 9] [2 8] [3 7]]]
+ [[[1 14] [2 15] [3 14]] [[1 16] [2 15] [3 14]]]
+ [[[1 16] [2 17] [3 16]] [[1 18] [2 17] [3 16]]]
+ [[[1 18] [2 19] [3 18]] [[1 20] [2 19] [3 18]]]
+ [[[1 20] [2 21] [3 20]] [[1 22] [2 21] [3 20]]]
+ [[[1 21] [2 22] [3 21]] [[1 23] [2 22] [3 21]]]
+ [[[1 22] [2 23] [3 22]] [[1 24] [2 23] [3 22]]]
+ [[[1 23] [2 24] [3 23]] [[1 25] [2 24] [3 23]]]
+ ...)
+clj꞉user꞉> 
+#'user/get_cross_chars
+clj꞉user꞉> 
+#'user/get_cross_string
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+([[\S [1 10] \X] [\M [1 10] \X]]
+ [[\S [1 11] \X] [\M [1 11] \X]]
+ [[\M [1 13] \M] [\X [1 13] \M]]
+ [[\M [1 17] \S] [\M [1 17] \S]]
+ [[\X [1 34] \S] [\A [1 34] \S]]
+ [[\S [1 49] \M] [\S [1 49] \M]]
+ [[\M [1 50] \M] [\M [1 50] \M]]
+ [[\S [1 53] \M] [\M [1 53] \M]]
+ [[\A [1 54] \S] [\X [1 54] \S]]
+ [[\M [1 55] \S] [\M [1 55] \S]]
+ [[\A [1 62] \M] [\X [1 62] \M]]
+ [[\M [1 63] \M] [\M [1 63] \M]]
+ [[\A [1 70] \X] [\M [1 70] \X]]
+ [[\M [1 78] \S] [\M [1 78] \S]]
+ [[\M [1 79] \X] [\M [1 79] \X]]
+ [[\M [1 81] \M] [\M [1 81] \M]]
+ [[\M [1 85] \M] [\S [1 85] \M]]
+ [[\M [1 89] \S] [\M [1 89] \S]]
+ [[\M [1 91] \S] [\A [1 91] \S]]
+ [[\X [1 95] \S] [\X [1 95] \S]]
+ [[\M [1 102] \M] [\S [1 102] \M]]
+ [[\X [1 105] \S] [\M [1 105] \S]]
+ [[\M [1 108] \M] [\M [1 108] \M]]
+ [[\M [1 110] \M] [\M [1 110] \M]]
+ [[\M [1 111] \S] [\M [1 111] \S]]
+ [[\M [1 113] \S] [\M [1 113] \S]]
+ [[\S [1 114] \M] [\M [1 114] \M]]
+ [[\M [1 116] \M] [\X [1 116] \M]]
+ [[\S [1 121] \M] [\S [1 121] \M]]
+ [[\S [1 123] \M] [\S [1 123] \M]]
+ [[\S [1 125] \M] [\X [1 125] \M]]
+ [[\M [1 128] \M] [\M [1 128] \M]]
+ [[\M [1 130] \S] [\M [1 130] \S]]
+ [[\S [1 131] \M] [\M [1 131] \M]]
+ [[\M [1 133] \M] [\S [1 133] \M]]
+ [[\M [1 136] \M] [\S [1 136] \M]]
+ [[\S [1 138] \S] [\M [1 138] \S]]
+ [[\M [2 1] \X] [\M [2 1] \X]]
+ [[\S [2 2] \M] [\S [2 2] \M]]
+ [[\M [2 3] \S] [\M [2 3] \S]]
+ [[\S [2 4] \M] [\S [2 4] \M]]
+ [[\M [2 7] \S] [\M [2 7] \S]]
+ [[\X [2 8] \A] [\M [2 8] \A]]
+ [[\M [2 15] \M] [\M [2 15] \M]]
+ [[\M [2 17] \M] [\S [2 17] \M]]
+ [[\S [2 19] \M] [\M [2 19] \M]]
+ [[\M [2 21] \M] [\S [2 21] \M]]
+ [[\X [2 22] \M] [\S [2 22] \M]]
+ [[\S [2 23] \S] [\M [2 23] \S]]
+ [[\S [2 24] \M] [\S [2 24] \M]]
+ ...)
+clj꞉user꞉> 
+#'user/get_cross_chars
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+([[\S \A \X] [\M \A \X]]
+ [[\S \A \X] [\M \A \X]]
+ [[\M \A \M] [\X \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\X \A \S] [\A \A \S]]
+ [[\S \A \M] [\S \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\S \A \M] [\M \A \M]]
+ [[\A \A \S] [\X \A \S]]
+ [[\M \A \S] [\M \A \S]]
+ [[\A \A \M] [\X \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\A \A \X] [\M \A \X]]
+ [[\M \A \S] [\M \A \S]]
+ [[\M \A \X] [\M \A \X]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\M \A \S] [\A \A \S]]
+ [[\X \A \S] [\X \A \S]]
+ [[\M \A \M] [\S \A \M]]
+ [[\X \A \S] [\M \A \S]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\M \A \S] [\M \A \S]]
+ [[\S \A \M] [\M \A \M]]
+ [[\M \A \M] [\X \A \M]]
+ [[\S \A \M] [\S \A \M]]
+ [[\S \A \M] [\S \A \M]]
+ [[\S \A \M] [\X \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\S \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\S \A \S] [\M \A \S]]
+ [[\M \A \X] [\M \A \X]]
+ [[\S \A \M] [\S \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\S \A \M] [\S \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\X \A \A] [\M \A \A]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\S \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\X \A \M] [\S \A \M]]
+ [[\S \A \S] [\M \A \S]]
+ [[\S \A \M] [\S \A \M]]
+ ...)
+clj꞉user꞉> 
+#'user/get_cross_string
+clj꞉user꞉> 
+#'user/get_cross_strings
+clj꞉user꞉> 
+#'user/cross_strings
+clj꞉user꞉> 
+([[\S \A \X] [\M \A \X]]
+ [[\S \A \X] [\M \A \X]]
+ [[\M \A \M] [\X \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\X \A \S] [\A \A \S]]
+ [[\S \A \M] [\S \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\S \A \M] [\M \A \M]]
+ [[\A \A \S] [\X \A \S]]
+ [[\M \A \S] [\M \A \S]]
+ [[\A \A \M] [\X \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\A \A \X] [\M \A \X]]
+ [[\M \A \S] [\M \A \S]]
+ [[\M \A \X] [\M \A \X]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\M \A \S] [\A \A \S]]
+ [[\X \A \S] [\X \A \S]]
+ [[\M \A \M] [\S \A \M]]
+ [[\X \A \S] [\M \A \S]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\M \A \S] [\M \A \S]]
+ [[\S \A \M] [\M \A \M]]
+ [[\M \A \M] [\X \A \M]]
+ [[\S \A \M] [\S \A \M]]
+ [[\S \A \M] [\S \A \M]]
+ [[\S \A \M] [\X \A \M]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\S \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\S \A \S] [\M \A \S]]
+ [[\M \A \X] [\M \A \X]]
+ [[\S \A \M] [\S \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\S \A \M] [\S \A \M]]
+ [[\M \A \S] [\M \A \S]]
+ [[\X \A \A] [\M \A \A]]
+ [[\M \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\S \A \M] [\M \A \M]]
+ [[\M \A \M] [\S \A \M]]
+ [[\X \A \M] [\S \A \M]]
+ [[\S \A \S] [\M \A \S]]
+ [[\S \A \M] [\S \A \M]]
+ ...)
+clj꞉user꞉> 
+#'user/cross_strings
+clj꞉user꞉> 
+(("SAX" "MAX")
+ ("SAX" "MAX")
+ ("MAM" "XAM")
+ ("MAS" "MAS")
+ ("XAS" "AAS")
+ ("SAM" "SAM")
+ ("MAM" "MAM")
+ ("SAM" "MAM")
+ ("AAS" "XAS")
+ ("MAS" "MAS")
+ ("AAM" "XAM")
+ ("MAM" "MAM")
+ ("AAX" "MAX")
+ ("MAS" "MAS")
+ ("MAX" "MAX")
+ ("MAM" "MAM")
+ ("MAM" "SAM")
+ ("MAS" "MAS")
+ ("MAS" "AAS")
+ ("XAS" "XAS")
+ ("MAM" "SAM")
+ ("XAS" "MAS")
+ ("MAM" "MAM")
+ ("MAM" "MAM")
+ ("MAS" "MAS")
+ ("MAS" "MAS")
+ ("SAM" "MAM")
+ ("MAM" "XAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("SAM" "XAM")
+ ("MAM" "MAM")
+ ("MAS" "MAS")
+ ("SAM" "MAM")
+ ("MAM" "SAM")
+ ("MAM" "SAM")
+ ("SAS" "MAS")
+ ("MAX" "MAX")
+ ("SAM" "SAM")
+ ("MAS" "MAS")
+ ("SAM" "SAM")
+ ("MAS" "MAS")
+ ("XAA" "MAA")
+ ("MAM" "MAM")
+ ("MAM" "SAM")
+ ("SAM" "MAM")
+ ("MAM" "SAM")
+ ("XAM" "SAM")
+ ("SAS" "MAS")
+ ("SAM" "SAM")
+ ...)
+clj꞉user꞉> 
+#'user/string_valid?
+clj꞉user꞉> 
+#'user/is_cross_valid
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d4.clj:70:41).
+; Unable to resolve symbol: cross_valid? in this context
+clj꞉user꞉> 
+#'user/cross_valid?
+clj꞉user꞉> 
+#'user/string_valid?
+clj꞉user꞉> 
+#'user/are_crosses_valid
+clj꞉user꞉> 
+(false
+ false
+ false
+ true
+ false
+ true
+ false
+ false
+ false
+ true
+ false
+ false
+ false
+ true
+ false
+ false
+ false
+ true
+ false
+ false
+ false
+ false
+ false
+ false
+ true
+ true
+ false
+ false
+ true
+ true
+ false
+ false
+ true
+ false
+ false
+ false
+ false
+ false
+ true
+ true
+ true
+ true
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ true
+ ...)
+clj꞉user꞉> 
+(true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ true
+ ...)
+clj꞉user꞉> 
+1191
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+6
+clj꞉user꞉> 
+22
+clj꞉user꞉> 
+(false
+ false
+ true
+ true
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ true
+ true
+ true
+ true
+ false
+ false
+ false
+ false
+ false)
+clj꞉user꞉> 
+(("MAM" "SAM")
+ ("SAM" "AM")
+ ("MAS" "MAS")
+ ("SAM" "SAM")
+ ("MAM" "SAM")
+ ("SAS" "MAS")
+ ("SAX" "MAX")
+ ("MAM" "SAM")
+ ("MAX" "MAX")
+ ("MAM" "SAM")
+ ("XAS" "MAS")
+ ("MAS" "AS")
+ ("MAM" "XAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("XAM" "SAM")
+ ("SAM" "AM")
+ ("SAM" "XAM")
+ ("MA" "XA")
+ ("MA" "MA"))
+clj꞉user꞉> 
+([1 2]
+ [1 9]
+ [2 6]
+ [2 7]
+ [3 2]
+ [3 4]
+ [4 2]
+ [4 4]
+ [4 7]
+ [5 2]
+ [5 7]
+ [5 9]
+ [6 5]
+ [7 1]
+ [7 3]
+ [7 5]
+ [7 7]
+ [7 8]
+ [7 9]
+ [8 1]
+ [9 4]
+ [9 7])
+clj꞉user꞉> 
+#'user/get_cross_chars
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+(true
+ false
+ true
+ true
+ true
+ true
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ true
+ true
+ true
+ true
+ false
+ false
+ false
+ false
+ false)
+clj꞉user꞉> 
+(("MAS" "SAM")
+ ("SA" "AM")
+ ("MAS" "MAS")
+ ("SAM" "SAM")
+ ("MAS" "SAM")
+ ("SAM" "MAS")
+ ("SAM" "MAX")
+ ("MAX" "SAM")
+ ("MAM" "MAX")
+ ("MAM" "SAM")
+ ("XAS" "MAS")
+ ("MA" "AS")
+ ("MAS" "XAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("SAM" "SAM")
+ ("XAM" "SAM")
+ ("SA" "AM")
+ ("SAM" "XAM")
+ ("MA" "XA")
+ ("MA" "MA"))
+clj꞉user꞉> 
+9
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+9
+clj꞉user꞉> 
+#'user/all_as
+clj꞉user꞉> 
+#'user/crosses
+clj꞉user꞉> 
+1835
+clj꞉user꞉> 
