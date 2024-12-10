@@ -11,7 +11,6 @@
         ]
    [rule_map, books_arr]) )
 
-
 (def rules_and_maps (parse_input input_string))
 (def rules (first rules_and_maps))
 (def sections (last rules_and_maps))

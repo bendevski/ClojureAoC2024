@@ -2,7 +2,7 @@
 (require '[clojure.string :as str])
 (require 'sc.api)
 
-(def input_string (slurp "d3.txt"))
+(def input_string (slurp "d3f.txt"))
 
 (def valids (re-seq #"mul[\(]\d+,\d+[\)]" input_string))
 
@@ -20,7 +20,7 @@
 (defn is_do_nt? [entry] (or (= entry "do()") (= entry "don't()")))
 (def to_process? {"don't()" false "do()" true})
 (defn process_entry [entry, include]
-  (if (= include false) 0 
+  (if (not include) 0 
       (->> entry
            (re-seq #"\d+")
            (strings_to_ints)
@@ -30,7 +30,7 @@
     (if (empty? entries) acc 
     (if (is_do_nt? (first entries)) 
       (recur (rest entries) (to_process? (first entries)) acc)
-      (recur (rest entries) (include) (+ acc (process_entry (first entries) include))))
+      (recur (rest entries) include (+ acc (process_entry (first entries) include))))
       )))
 (process_entries valids2)
 (to_process? "don't()")
