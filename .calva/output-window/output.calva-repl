@@ -76,3 +76,922 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 286580387663654
 clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+(["............"]
+ ["........0..."]
+ [".....0......"]
+ [".......0...."]
+ ["....0......."]
+ ["......A....."]
+ ["............"]
+ ["............"]
+ ["........A..."]
+ [".........A.."]
+ ["............"]
+ ["............"])
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+([[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\0] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\0] [\.] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\0] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\0] [\.] [\.] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\A] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\A] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\A] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.]]
+ [[\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.] [\.]])
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+([\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \0 \. \. \.]
+ [\. \. \. \. \. \0 \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \0 \. \. \. \.]
+ [\. \. \. \. \0 \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \A \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \A \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \A \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.])
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+[[\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \0 \. \. \.]
+ [\. \. \. \. \. \0 \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \0 \. \. \. \.]
+ [\. \. \. \. \0 \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \A \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \A \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \A \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]]
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/format-input (form-init8530842562539460757.clj:6).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+; Execution error (ArityException) at user/format-input (form-init8530842562539460757.clj:6).
+; Wrong number of args (12) passed to: clojure.core/char
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/format-input (form-init8530842562539460757.clj:6).
+; class java.lang.String cannot be cast to class java.lang.Number (java.lang.String and java.lang.Number are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+[\. \. \. \. \. \. \. \. \. \. \. \.]
+clj꞉user꞉> 
+#'user/format_input
+clj꞉user꞉> 
+[[\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \0 \. \. \.]
+ [\. \. \. \. \. \0 \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \0 \. \. \. \.]
+ [\. \. \. \. \0 \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \A \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \A \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \A \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]]
+clj꞉user꞉> 
+#'user/add_to_or_create_map_list
+clj꞉user꞉> 
+#'user/add_to_or_create_map_list
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/create_antena_map
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉user꞉> 
+#'user/create_antena_map
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Integer
+clj꞉user꞉> 
+#'user/create_antena_map
+clj꞉user꞉> 
+#'user/add_to_or_create_map_list
+clj꞉user꞉> 
+#'user/get_antennae_map
+clj꞉user꞉> 
+{\0 [[1 8] [2 5] [3 7] [4 4]], \A [[5 6] [8 8] [9 9]]}
+clj꞉user꞉> 
+#'user/antennae_map
+clj꞉user꞉> 
+([\0 [1 8]] [\0 [2 5]] [\0 [3 7]] [\0 [4 4]] [\A [5 6]] [\A [8 8]] [\A [9 9]])
+clj꞉user꞉> 
+([1 8] [2 5] [3 7] [4 4] [5 6] [8 8] [9 9])
+clj꞉user꞉> 
+([[1 8]] [[2 5]] [[3 7]] [[4 4]] [[5 6]] [[8 8]] [[9 9]])
+clj꞉user꞉> 
+([\0 [1 8]] [\0 [2 5]] [\0 [3 7]] [\0 [4 4]] [\A [5 6]] [\A [8 8]] [\A [9 9]])
+clj꞉user꞉> 
+([[1 8] [2 5] [3 7] [4 4]] [[5 6] [8 8] [9 9]])
+clj꞉user꞉> 
+[[[1 8] [2 5] [3 7] [4 4]] [[5 6] [8 8] [9 9]]]
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+[[[1 8] [2 5] [3 7] [4 4]] [[5 6] [8 8] [9 9]]]
+clj꞉user꞉> 
+#'user/antennae_vec
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+[[[1 8] [2 5] [3 7] [4 4]] [[5 6] [8 8] [9 9]]]
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+[[-1 3] [3 13]]
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+[[0 11] [3 2]]
+clj꞉user꞉> 
+[[1 3] [4 9]]
+clj꞉user꞉> 
+([[-1 3] [3 13]] [[-2 1] [4 15]] [[-3 4] [5 12]] [[-1 -2] [5 12]] [[-2 1] [6 9]] [[-1 3] [7 11]])
+clj꞉user꞉> 
+#'user/in_bounds?
+clj꞉user꞉> 
+([[-1 3] [3 13]]
+ [[-2 1] [4 15]]
+ [[-3 4] [5 12]]
+ [[-1 -2] [5 12]]
+ [[-2 1] [6 9]]
+ [[-1 3] [7 11]]
+ [[-3 -2] [13 14]]
+ [[-4 -3] [14 15]]
+ [[-1 -1] [17 17]])
+clj꞉user꞉> 
+([[-1 3] [3 13]]
+ [[-2 1] [4 15]]
+ [[-3 4] [5 12]]
+ [[-1 -2] [5 12]]
+ [[-2 1] [6 9]]
+ [[-1 3] [7 11]]
+ [[-3 -2] [13 14]]
+ [[-4 -3] [14 15]]
+ [[-1 -1] [17 17]])
+clj꞉user꞉> 
+(-1 3 3 13 -2 1 4 15 -3 4 5 12 -1 -2 5 12 -2 1 6 9 -1 3 7 11 -3 -2 13 14 -4 -3 14 15 -1 -1 17 17)
+clj꞉user꞉> 
+([-1 3]
+ [3 13]
+ [-2 1]
+ [4 15]
+ [-3 4]
+ [5 12]
+ [-1 -2]
+ [5 12]
+ [-2 1]
+ [6 9]
+ [-1 3]
+ [7 11]
+ [-3 -2]
+ [13 14]
+ [-4 -3]
+ [14 15]
+ [-1 -1]
+ [17 17])
+clj꞉user꞉> 
+#'user/possible_antinodes
+clj꞉user꞉> 
+; Execution error (ArityException) at user/eval11736 (form-init8530842562539460757.clj:37).
+; Wrong number of args (1) passed to: user/in-bounds?
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+[[\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \0 \. \. \.]
+ [\. \. \. \. \. \0 \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \0 \. \. \. \.]
+ [\. \. \. \. \0 \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \A \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \A \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \A \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]]
+clj꞉user꞉> 
+([-1 3]
+ [3 13]
+ [-2 1]
+ [4 15]
+ [-3 4]
+ [5 12]
+ [-1 -2]
+ [5 12]
+ [-2 1]
+ [6 9]
+ [-1 3]
+ [7 11]
+ [-3 -2]
+ [13 14]
+ [-4 -3]
+ [14 15]
+ [-1 -1]
+ [17 17])
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+#'user/possible_antinodes
+clj꞉user꞉> 
+([0 11] [3 2] [-1 9] [5 6] [-2 12] [7 0] [1 3] [4 9] [0 6] [6 3] [2 10] [5 1] [2 4] [11 10] [1 3] [13 12] [7 7] [10 10])
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#'user/in_bounds?
+clj꞉user꞉> 
+#'user/possible_antinodes
+clj꞉user꞉> 
+([0 11] [3 2] [-1 9] [5 6] [-2 12] [7 0] [1 3] [4 9] [0 6] [6 3] [2 10] [5 1] [2 4] [11 10] [1 3] [13 12] [7 7] [10 10])
+clj꞉user꞉> 
+15
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval11832 (form-init8530842562539460757.clj:38).
+; class clojure.lang.LazySeq cannot be cast to class clojure.lang.IFn (clojure.lang.LazySeq and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+([0 11] [3 2] [5 6] [7 0] [1 3] [4 9] [0 6] [6 3] [2 10] [5 1] [2 4] [11 10] [1 3] [7 7] [10 10])
+clj꞉user꞉> 
+([-2 12] [-1 9] [0 11] [0 6] [1 3] [1 3] [2 10] [2 4] [3 2] [4 9] [5 6] [5 1] [6 3] [7 0] [7 7] [10 10] [11 10] [13 12])
+clj꞉user꞉> 
+([0 11] [0 6] [1 3] [1 3] [2 10] [2 4] [3 2] [4 9] [5 6] [5 1] [6 3] [7 0] [7 7] [10 10] [11 10])
+clj꞉user꞉> 
+([0 11] [3 2] [5 6] [7 0] [1 3] [4 9] [0 6] [6 3] [2 10] [5 1] [2 4] [11 10] [1 3] [7 7] [10 10])
+clj꞉user꞉> 
+15
+clj꞉user꞉> 
+; Execution error (ArityException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; Wrong number of args (2) passed to: clojure.core/first--5449
+clj꞉user꞉> 
+; Execution error (ArityException) at java.util.TimSort/countRunAndMakeAscending (TimSort.java:355).
+; Wrong number of args (2) passed to: clojure.core/first--5449
+clj꞉user꞉> 
+([0 11] [0 6] [1 3] [1 3] [2 10] [2 4] [3 2] [4 9] [5 6] [5 1] [6 3] [7 0] [7 7] [10 10] [11 10])
+clj꞉user꞉> 
+([0 11] [0 6] [1 3] [2 10] [2 4] [3 2] [4 9] [5 6] [5 1] [6 3] [7 0] [7 7] [10 10] [11 10])
+clj꞉user꞉> 
+14
+clj꞉user꞉> 
+15
+clj꞉user꞉> 
+14
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+; Error printing return value (NoSuchMethodError) at user/create-antena-map$iter$fn$iter$fn$fn (form-init8530842562539460757.clj:17).
+; 'java.lang.Object user$add_to_or_create_map_list.invokeStatic(java.lang.Object, java.lang.Object, java.lang.Object)'
+clj꞉user꞉> 
+#'user/get_antennae_map
+clj꞉user꞉> 
+#'user/antennae_map
+clj꞉user꞉> 
+#'user/antennae_vec
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/antinodes_for_antennaes
+clj꞉user꞉> 
+#'user/in_bounds?
+clj꞉user꞉> 
+([[17 19] [26 16]] [[12 23] [36 8]] [[18 21] [33 9]])
+clj꞉user꞉> 
+#'user/possible_antinodes
+clj꞉user꞉> 
+([17 19]
+ [26 16]
+ [12 23]
+ [36 8]
+ [18 21]
+ [33 9]
+ [1 50]
+ [4 44]
+ [0 53]
+ [6 38]
+ [2 49]
+ [5 40]
+ [-5 -5]
+ [10 13]
+ [-9 -10]
+ [18 23]
+ [-14 2]
+ [28 -1]
+ [1 2]
+ [13 17]
+ [-4 14]
+ [23 -7]
+ [4 24]
+ [19 -12]
+ [-1 5]
+ [11 20]
+ [-2 4]
+ [13 22]
+ [-6 3]
+ [21 24]
+ [6 14]
+ [9 17]
+ [2 13]
+ [17 19]
+ [4 15]
+ [16 18]
+ [21 48]
+ [36 -6]
+ [19 41]
+ [40 8]
+ [14 43]
+ [50 4]
+ [29 5]
+ [35 26]
+ [24 7]
+ [45 22]
+ [28 21]
+ [43 15]
+ [19 0]
+ [31 15]
+ ...)
+clj꞉user꞉> 
+405
+clj꞉user꞉> 
+([0 33]
+ [0 48]
+ [0 39]
+ [0 24]
+ [0 41]
+ [0 27]
+ [0 32]
+ [1 2]
+ [1 13]
+ [1 20]
+ [1 11]
+ [1 16]
+ [1 6]
+ [1 2]
+ [2 49]
+ [2 13]
+ [2 46]
+ [2 45]
+ [2 24]
+ [2 20]
+ [2 18]
+ [3 34]
+ [3 46]
+ [3 32]
+ [3 25]
+ [3 16]
+ [3 18]
+ [3 1]
+ [3 32]
+ [3 8]
+ [4 44]
+ [4 24]
+ [4 15]
+ [4 35]
+ [4 33]
+ [4 29]
+ [4 28]
+ [5 40]
+ [5 43]
+ [5 49]
+ [5 25]
+ [5 24]
+ [5 48]
+ [6 38]
+ [6 14]
+ [6 40]
+ [6 25]
+ [6 5]
+ [6 40]
+ [6 1]
+ ...)
+clj꞉user꞉> 
+#{[26 44]
+  [39 11]
+  [49 35]
+  [38 30]
+  [25 34]
+  [8 7]
+  [16 6]
+  [3 25]
+  [37 26]
+  [6 38]
+  [37 45]
+  [2 18]
+  [21 42]
+  [28 29]
+  [0 41]
+  [18 23]
+  [19 34]
+  [38 32]
+  [3 32]
+  [13 43]
+  [40 41]
+  [41 27]
+  [45 33]
+  [24 37]
+  [41 29]
+  [18 26]
+  [14 24]
+  [32 23]
+  [14 30]
+  [21 10]
+  [47 45]
+  [19 6]
+  [12 41]
+  [39 16]
+  [12 45]
+  [6 25]
+  [40 39]
+  [48 44]
+  [14 31]
+  [33 29]
+  [42 35]
+  [35 10]
+  [4 24]
+  [27 29]
+  [7 7]
+  [23 46]
+  [40 46]
+  [43 5]
+  [37 31]
+  [37 27]
+  ...}
+clj꞉user꞉> 
+371
+clj꞉user꞉> 
+#'user/slope_for_two
+clj꞉user꞉> 
+#'user/slopes_for_all
+clj꞉user꞉> 
+#'user/line_from_two
+clj꞉user꞉> 
+#'user/lines_from_all
+clj꞉user꞉> 
+; Syntax error compiling def at (src/clojure_2024/d8.clj:54:1).
+; Too many arguments to def
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/minus (Numbers.java:164).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/line_from_two
+clj꞉user꞉> 
+#'user/lines_from_all
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/minus (Numbers.java:164).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/line_from_two
+clj꞉user꞉> 
+#'user/lines_from_all
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+({:slope -1/3, :intercept 74/3} {:slope -5/8, :intercept 61/2} {:slope -4/5, :intercept 177/5})
+clj꞉user꞉> 
+#'user/line_from_two
+clj꞉user꞉> 
+#'user/lines_from_all
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+([-1/3 74/3] [-5/8 61/2] [-4/5 177/5])
+clj꞉user꞉> 
+#'user/is_point_on_line?
+clj꞉user꞉> 
+[[20 18] [23 17] [28 13]]
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+; Error printing return value (NoSuchMethodError) at user/create-antena-map$iter$fn$iter$fn$fn (form-init8530842562539460757.clj:17).
+; 'java.lang.Object user$add_to_or_create_map_list.invokeStatic(java.lang.Object, java.lang.Object, java.lang.Object)'
+clj꞉user꞉> 
+#'user/get_antennae_map
+clj꞉user꞉> 
+#'user/antennae_map
+clj꞉user꞉> 
+#'user/antennae_vec
+clj꞉user꞉> 
+#'user/antinodes_for_two_antennaes
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+[[1 8] [2 5] [3 7] [4 4]]
+clj꞉user꞉> 
+([-3 11] [-1/2 17/2] [-4/3 28/3] [2 1] [-1/2 6N] [-3 16])
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+[[1 8] [2 5] [3 7] [4 4]]
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+([-3 11] [-1/2 17/2] [-4/3 28/3] [2 1] [-1/2 6N] [-3 16])
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+(([-3 11] [-1/2 17/2] [-4/3 28/3] [2 1] [-1/2 6N] [-3 16]) ([2/3 8/3] [3/4 9/4] [1 0]))
+clj꞉user꞉> 
+([-3 11] [-1/2 17/2] [-4/3 28/3] [2 1] [-1/2 6N] [-3 16] [2/3 8/3] [3/4 9/4] [1 0])
+clj꞉user꞉> 
+#'user/flatlines
+clj꞉user꞉> 
+#'user/how_many_points
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/is-point-on-line? (form-init8530842562539460757.clj:55).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.Number (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+[[\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \0 \. \. \.]
+ [\. \. \. \. \. \0 \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \0 \. \. \. \.]
+ [\. \. \. \. \0 \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \A \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \A \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \A \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]]
+clj꞉user꞉> 
+(([-3 11] [-1/2 17/2] [-4/3 28/3] [2 1] [-1/2 6N] [-3 16]) ([2/3 8/3] [3/4 9/4] [1 0]))
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/how-many-points$iter$fn$iter$fn$iter$fn (form-init8530842562539460757.clj:63).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+; Error printing return value (UnsupportedOperationException) at clojure.lang.RT/nthFrom (RT.java:992).
+; nth not supported on this type: Long
+clj꞉user꞉> 
+; Error printing return value (UnsupportedOperationException) at clojure.lang.RT/nthFrom (RT.java:992).
+; nth not supported on this type: Long
+clj꞉user꞉> 
+(false false false false false false false false false)
+clj꞉user꞉> 
+(false false false false false false false false false)
+clj꞉user꞉> 
+(false false false false false false false false false)
+clj꞉user꞉> 
+(true false false false false false false false false)
+clj꞉user꞉> 
+#'user/how_many_points
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/how-many-points$iter$fn$iter$fn$iter$fn (form-init8530842562539460757.clj:63).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+(true false false false false false false false false)
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+[[\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \0 \. \. \.]
+ [\. \. \. \. \. \0 \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \0 \. \. \. \.]
+ [\. \. \. \. \0 \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \A \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \A \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \A \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]
+ [\. \. \. \. \. \. \. \. \. \. \. \.]]
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at clojure.lang.Numbers/multiply (Numbers.java:175).
+; class clojure.core$range cannot be cast to class java.lang.Number (clojure.core$range is in unnamed module of loader 'app'; java.lang.Number is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+(false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ true
+ false
+ false
+ false
+ true
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ ...)
+clj꞉user꞉> 
+([-3 11] [-1/2 17/2] [-4/3 28/3] [2 1] [-1/2 6N] [-3 16] [2/3 8/3] [3/4 9/4] [1 0])
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+; Execution error (ArityException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Wrong number of args (1) passed to: clojure.core/for
+clj꞉user꞉> 
+; Execution error (ArityException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Wrong number of args (1) passed to: clojure.core/for
+clj꞉user꞉> 
+; Execution error (ArityException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Wrong number of args (1) passed to: clojure.core/for
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+; Error printing return value (IllegalArgumentException) at clojure.lang.RT/seqFrom (RT.java:557).
+; Don't know how to create ISeq from: java.lang.Boolean
+clj꞉user꞉> 
+(true
+ true
+ nil
+ nil
+ nil
+ nil
+ true
+ nil
+ nil
+ nil
+ nil
+ true
+ nil
+ true
+ nil
+ true
+ nil
+ nil
+ nil
+ nil
+ true
+ nil
+ nil
+ nil
+ nil
+ nil
+ true
+ nil
+ true
+ true
+ nil
+ nil
+ nil
+ nil
+ true
+ nil
+ nil
+ nil
+ true
+ true
+ nil
+ nil
+ nil
+ true
+ nil
+ nil
+ nil
+ nil
+ nil
+ nil
+ ...)
+clj꞉user꞉> 
+(1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 0 0 0 1 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 0 0 0 ...)
+clj꞉user꞉> 
+#'user/how_many_points
+clj꞉user꞉> 
+34
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/antennae_map
+clj꞉user꞉> 
+#'user/antennae_vec
+clj꞉user꞉> 
+#'user/flatlines
+clj꞉user꞉> 
+#'user/lines
+clj꞉user꞉> 
+#'user/flatlines
+clj꞉user꞉> 
+(false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ ...)
+clj꞉user꞉> 
+1229
+clj꞉user꞉> 
+#'user/how_many_points
+clj꞉user꞉> 
+(false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ false
+ ...)
+clj꞉user꞉> 
+1229
+clj꞉user꞉> 
+1229
+clj꞉user꞉> 
