@@ -39,6 +39,11 @@
 swaped_mem
 (get_swaped_mem_checksum swaped_mem)
 ;; Part 2
+(defn get_swaped_mem_checksum [swaped_mem]
+  (reduce-kv
+   (fn [acc k v] (+ acc (* k (if (not= "." v) (Integer/parseInt v) 0))))
+   0
+   swaped_mem))
 (defn expand_possible_string_pair [possibe_pair]
   (let [split (str/split possibe_pair #"")
         el1 (first split)
@@ -73,7 +78,7 @@ swaped_mem
 
 (defn remove-at [v idx]
   (vec (concat (subvec v 0 idx) (subvec v (inc idx)))))
-
+;; After rethinking unncessary, will leave it here if needed later
 (defn combine_free [grid]
   (loop [i 0 grid grid]
     (let [done? (>= i (- (count grid) 2))
@@ -97,6 +102,7 @@ swaped_mem
         balanced_grid (assoc grid front_idx updated_free_space)
         swapped (swap balanced_grid front_idx back_idx)
         padded (if needs_padding? (insert_free_space swapped (inc front_idx) size_diff) swapped)] padded))
+
 (defn find_space [back_idx grid]
   (loop [front_idx 0 back_idx back_idx grid grid]
     (let [front_el (get grid front_idx)
@@ -104,40 +110,30 @@ swaped_mem
           free? (= (first front_el) ".")
           big_enough? (<= 0 (- (count front_el) (count back_el)))]
       (if (= front_idx back_idx) nil (if (and free? big_enough?) front_idx (recur (inc front_idx) back_idx grid))))))
-(defn next_grid_state [grid, moved_map]
-  (loop [grid grid back_idx (dec (count grid)) moved_map moved_map]
-    (let [back_el (get grid back_idx)
-          valid_back? (not= (first back_el) ".")
-          front_idx (if valid_back? (find_space back_idx grid) nil)
-          cant_move? (or (get moved_map (first back_el)) (nil? front_idx))
-          new_moved_map (if cant_move? moved_map (assoc moved_map (first back_el) true))]
-      (if
-       (= back_idx 0)
-        nil
-        (if cant_move?
-          (recur grid (dec back_idx) new_moved_map)
-          [(swap_and_add_mem grid front_idx back_idx)])))))
+
+(defn next_grid_state [grid, back_idx, moved_map] 
+   (let [back_el (get grid back_idx)
+         valid_back? (not= (first back_el) ".")
+         front_idx (if valid_back? (find_space back_idx grid) nil)
+         cant_move? (or (get moved_map (first back_el)) (nil? front_idx))
+         new_moved_map (if cant_move? moved_map (assoc moved_map (first back_el) true))
+         new_grid (if cant_move? grid (swap_and_add_mem grid front_idx back_idx))
+         ]
+     (if cant_move?
+        [grid moved_map]
+        [new_grid new_moved_map]
+        )))
+
 (defn move_memory [grid moved_map]
-  (loop [grid grid moved_map moved_map]
-    (let [[new_grid, new_moved_map] (next_grid_state grid moved_map)
-          _ (if (not (nil? new_grid)) (do (pretty-print-2d new_grid) (print "\n")) nil)]
-      (if (nil? new_grid) grid (recur new_grid new_moved_map)))))
-(< 1 0)
-;; swap if first is dots second is not dots and the size fits
-;; change first if it's not dots or doesn't fit
-;; change back if swap or is dots
-;;
-(>= 1 0)
-(- 3 2)
+  (loop [grid grid moved_map moved_map back_idx (dec (count grid))]
+    (let [[new_grid, new_moved_map] (next_grid_state grid back_idx moved_map)]
+      (if (= 0 back_idx) grid (recur new_grid new_moved_map (dec back_idx))))))
+
 (def input_string (slurp "d9f.txt"))
 ;; Too lazy to make this the right size
 (def mem (process_input input_string))
-mem
 (def moved_map (zipmap (map str (range (count mem))) (repeat false)))
-
-mem
-(move_memory mem moved_map)
-(next_grid_state mem)
-(swap_memory 0 (- (count mem) 1) mem)
-(- 10 9)
-(>= 1 0)
+(def final_grid (move_memory mem moved_map))
+(def flattened_mem (vec (flatten final_grid)))
+(get_swaped_mem_checksum flattened_mem)
+6568088051689
