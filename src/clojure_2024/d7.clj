@@ -58,7 +58,6 @@
     (let [possible? (and (empty? ops) (or (= cur res) (= res nil)))
           not_possible? (or (> cur res) (empty? ops))
           pipe (Long/parseLong (str (str cur) (str (first ops))))
-          _ (print res cur ops pipe "\n")
           ]
       (if possible?
         true

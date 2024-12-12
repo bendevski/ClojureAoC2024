@@ -56,7 +56,7 @@ grid
 (def lines (map lines_from_all antennae_vec))
 (def flatlines (mapcat identity lines))
 
-(defn how_many_points [lines, grid] 
+(defn how_many_points [flatlines, grid] 
   (reduce 
    + 
    0 
@@ -65,5 +65,4 @@ grid
       ] (let [ belongs? (some true? (map #(is_point_on_line? % [i j]) flatlines))]
           (if belongs? 1 0)))
    ))
-(map #(is_point_on_line? % [0 11]) flatlines)
 (how_many_points flatlines grid)
