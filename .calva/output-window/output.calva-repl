@@ -77507,3 +77507,864 @@ clj꞉user꞉> 
 clj꞉user꞉> 
 6568088051689
 clj꞉user꞉> 
+nil
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval12903 (form-init15810186673508921916.clj:3).
+; class java.lang.String cannot be cast to class java.util.regex.Pattern (java.lang.String and java.util.regex.Pattern are in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+["h" "i"]
+clj꞉user꞉> 
+#'user/process_input
+clj꞉user꞉> 
+(["8" "9" "0" "1" "0" "1" "2" "3"]
+ ["7" "8" "1" "2" "1" "8" "7" "4"]
+ ["8" "7" "4" "3" "0" "9" "6" "5"]
+ ["9" "6" "5" "4" "9" "8" "7" "4"]
+ ["4" "5" "6" "7" "8" "9" "0" "3"]
+ ["3" "2" "0" "1" "9" "0" "1" "2"]
+ ["0" "1" "3" "2" "9" "8" "0" "1"]
+ ["1" "0" "4" "5" "6" "7" "3" "2"])
+clj꞉user꞉> 
+#'user/process_input
+clj꞉user꞉> 
+[["8" "9" "0" "1" "0" "1" "2" "3"]
+ ["7" "8" "1" "2" "1" "8" "7" "4"]
+ ["8" "7" "4" "3" "0" "9" "6" "5"]
+ ["9" "6" "5" "4" "9" "8" "7" "4"]
+ ["4" "5" "6" "7" "8" "9" "0" "3"]
+ ["3" "2" "0" "1" "9" "0" "1" "2"]
+ ["0" "1" "3" "2" "9" "8" "0" "1"]
+ ["1" "0" "4" "5" "6" "7" "3" "2"]]
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/get_starts
+clj꞉user꞉> 
+([0 2] [0 4] [2 4] [4 6] [5 2] [5 5] [6 0] [6 6] [7 1])
+clj꞉user꞉> 
+; Syntax error (IllegalArgumentException) compiling . at (src/clojure_2024/d10.clj:22:8).
+; No matching method add found taking 1 args for class clojure.lang.PersistentQueue
+clj꞉user꞉> 
+; Syntax error (IllegalArgumentException) compiling . at (src/clojure_2024/d10.clj:22:8).
+; No matching method add found taking 1 args for class clojure.lang.PersistentQueue
+clj꞉user꞉> 
+#'user/q
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval13130 (form-init15810186673508921916.clj:23).
+; class clojure.lang.PersistentQueue cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentQueue and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/q
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval13168 (form-init15810186673508921916.clj:23).
+; class clojure.lang.PersistentQueue cannot be cast to class clojure.lang.IFn (clojure.lang.PersistentQueue and clojure.lang.IFn are in unnamed module of loader 'app')
+clj꞉user꞉> 
+<-()-<
+clj꞉user꞉> 
+<-()-<
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d10.clj:28:25).
+; Unable to resolve symbol: valid_point in this context
+clj꞉user꞉> 
+#'user/valid_point
+clj꞉user꞉> 
+#'user/valid_points
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d10.clj:38:1).
+; Unable to resolve symbol: test_grid in this context
+clj꞉user꞉> 
+#'user/test_grid
+clj꞉user꞉> 
+false
+clj꞉user꞉> 
+#'user/valid_point
+clj꞉user꞉> 
+; true false false
+false
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+; Syntax error compiling at (src/clojure_2024/d10.clj:43:1).
+; Unable to resolve symbol: >- in this context
+clj꞉user꞉> 
+true
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+; true true 2
+true
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/valid-points (form-init15810186673508921916.clj:26).
+; class java.lang.Long cannot be cast to class clojure.lang.IFn (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/valid_points
+clj꞉user꞉> 
+true false falsetrue false falsefalse true falsetrue true 2([1 0])
+clj꞉user꞉> 
+#'user/valid_point
+clj꞉user꞉> 
+#'user/valid_points
+clj꞉user꞉> 
+([1 0])
+clj꞉user꞉> 
+#'user/valid_points
+clj꞉user꞉> 
+#'user/q
+clj꞉user꞉> 
+[1 2 3 4]
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval13576 (form-init15810186673508921916.clj:45).
+; class java.lang.Long cannot be cast to class clojure.lang.IPersistentCollection (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+[1 2 3 4]
+clj꞉user꞉> 
+[1 2 3 4]
+clj꞉user꞉> 
+[1 2 3 4]
+clj꞉user꞉> 
+#'user/q
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/eval13630 (form-init15810186673508921916.clj:45).
+; class java.lang.Long cannot be cast to class clojure.lang.IPersistentCollection (java.lang.Long is in module java.base of loader 'bootstrap'; clojure.lang.IPersistentCollection is in unnamed module of loader 'app')
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/starts
+clj꞉user꞉> 
+([0 2] [0 4] [2 4] [4 6] [5 2] [5 5] [6 0] [6 6] [7 1])
+clj꞉user꞉> 
+
+clj꞉user꞉> 
+; ERROR:
+clj꞉user꞉> 
+#'user/available_paths
+#'user/available_paths
+#'user/available_paths
+clj꞉user꞉> 
+; ERROR:
+#'user/available_paths
+clj꞉user꞉> 
+#'user/starts
+clj꞉user꞉> 
+3
+clj꞉user꞉> 
+(3 3 3 3 3 3 3 3 3)
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/available-paths (form-init15810186673508921916.clj:31).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.String (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/available-paths (form-init15810186673508921916.clj:31).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.String (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; Error printing return value (ClassCastException) at user/available-paths (form-init15810186673508921916.clj:31).
+; class clojure.lang.PersistentVector cannot be cast to class java.lang.String (clojure.lang.PersistentVector is in unnamed module of loader 'app'; java.lang.String is in module java.base of loader 'bootstrap')
+clj꞉user꞉> 
+<-([0 1])-<
+clj꞉user꞉> 
+[0 1]
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; Error printing return value (NumberFormatException) at java.lang.Integer/parseInt (Integer.java:550).
+; Cannot parse null string
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; Error printing return value (NumberFormatException) at java.lang.Integer/parseInt (Integer.java:550).
+; Cannot parse null string
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; Error printing return value (NumberFormatException) at java.lang.Integer/parseInt (Integer.java:550).
+; Cannot parse null string
+clj꞉user꞉> 
+; [0 2] 
+; (valid_points cur grid) 
+; Execution error (NumberFormatException) at java.lang.Integer/parseInt (Integer.java:550).
+; Cannot parse null string
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; [0 2] 
+; (user/valid_points user/cur user/grid) 
+; Execution error (NumberFormatException) at java.lang.Integer/parseInt (Integer.java:550).
+; Cannot parse null string
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; [0 2] 
+; [0 3] 
+; [1 2] 
+; [1 3] 
+; [1 3] 
+; [2 3] 
+; [2 2] 
+; [3 3] 
+; [3 2] 
+; [3 2] 
+; [3 1] 
+; [4 2] 
+; [2 1] 
+; [4 3] 
+; [2 0] 
+; [1 1] 
+; [4 4] 
+; [3 0] 
+; [0 1] 
+; [4 5] 
+; [3 4] 
+; [5 4] 
+22
+clj꞉user꞉> 
+[0 2] 
+[0 3] 
+[1 2] 
+[1 3] 
+[1 3] 
+[2 3] 
+[2 2] 
+[3 3] 
+[3 2] 
+[3 2] 
+[3 1] 
+[4 2] 
+[2 1] 
+[4 3] 
+[2 0] 
+[1 1] 
+[4 4] 
+[3 0] 
+[0 1] 
+[4 5] 
+[3 4] 
+[5 4] 
+[0 4] 
+[0 3] 
+[0 5] 
+[1 4] 
+[1 3] 
+[0 6] 
+[1 3] 
+[2 3] 
+[0 7] 
+[2 2] 
+[3 3] 
+[1 7] 
+[3 2] 
+[3 2] 
+[2 7] 
+[3 1] 
+[4 2] 
+[2 6] 
+[2 1] 
+[4 3] 
+[1 6] 
+[3 6] 
+[2 0] 
+[1 1] 
+[4 4] 
+[1 5] 
+[3 5] 
+[3 0] 
+[0 1] 
+[4 5] 
+[3 4] 
+[5 4] 
+[2 5] 
+[3 4] 
+[2 5] 
+[4 5] 
+(22 36[2 4] 
+[1 4] 
+[1 3] 
+[2 3] 
+[2 2] 
+[3 3] 
+[3 2] 
+[3 2] 
+[3 1] 
+[4 2] 
+[2 1] 
+[4 3] 
+[2 0] 
+[1 1] 
+[4 4] 
+[3 0] 
+[0 1] 
+[4 5] 
+[3 4] 
+[5 4] 
+ 20[4 6] 
+[5 6] 
+[5 7] 
+[4 7] 
+[3 7] 
+[2 7] 
+[2 6] 
+[1 6] 
+[3 6] 
+[1 5] 
+[3 5] 
+[2 5] 
+[3 4] 
+[2 5] 
+[4 5] 
+ 15[5 2] 
+[5 3] 
+[6 3] 
+[6 2] 
+[7 2] 
+[7 3] 
+[7 4] 
+[7 5] 
+[6 5] 
+[6 4] 
+[5 5] 
+[5 6] 
+[5 7] 
+[4 7] 
+[3 7] 
+[2 7] 
+[2 6] 
+[1 6] 
+[3 6] 
+[1 5] 
+[3 5] 
+[2 5] 
+[3 4] 
+[2 5] 
+[4 5] 
+ 10 15[6 0] 
+[6 1] 
+[7 0] 
+[5 1] 
+[5 0] 
+[4 0] 
+[4 1] 
+[4 2] 
+[3 1] 
+[4 3] 
+[2 1] 
+[4 4] 
+[2 0] 
+[1 1] 
+[4 5] 
+[3 4] 
+[5 4] 
+[3 0] 
+[0 1] 
+[6 6] 
+[6 7] 
+[5 6] 
+[5 7] 
+[7 7] 
+[5 7] 
+[4 7] 
+[7 6] 
+[3 7] 
+[2 7] 
+[2 6] 
+[1 6] 
+[3 6] 
+[1 5] 
+[3 5] 
+[2 5] 
+[3 4] 
+[2 5] 
+[4 5] 
+ 19 19[7 1] 
+[7 0] 
+[6 1] 
+[5 1] 
+[5 0] 
+[4 0] 
+[4 1] 
+[4 2] 
+[3 1] 
+[4 3] 
+[2 1] 
+[4 4] 
+[2 0] 
+[1 1] 
+[4 5] 
+[3 4] 
+[5 4] 
+[3 0] 
+[0 1] 
+ 19)
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+(22 36 20 15 10 15 19 19 19)
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+5
+clj꞉user꞉> 
+(5 9 5 4 1 4 5 4 5)
+clj꞉user꞉> 
+5
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+9
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; [0 4] 0 
+; [0 3] 1 
+; [0 5] 1 
+; [1 4] 1 
+; [1 3] 2 
+; [0 6] 2 
+; [1 3] 2 
+; [2 3] 3 
+; [0 7] 3 
+; [2 2] 4 
+; [3 3] 4 
+; [1 7] 4 
+; [3 2] 5 
+; [3 2] 5 
+; [2 7] 5 
+; [3 1] 6 
+; [4 2] 6 
+; [2 6] 6 
+; [2 1] 7 
+; [4 3] 7 
+; [1 6] 7 
+; [3 6] 7 
+; [2 0] 8 
+; [1 1] 8 
+; [4 4] 8 
+; [1 5] 8 
+; [3 5] 8 
+; [3 0] 9 
+; [0 1] 9 
+; [4 5] 9 
+; [3 4] 9 
+; [5 4] 9 
+; [2 5] 9 
+; [3 4] 9 
+; [2 5] 9 
+; [4 5] 9 
+9
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+0
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+(0 0 0 0 0 0 0 0 0)
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; [0 4] false false 0 
+0
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; [0 4] true false 0 
+; [0 3] true false 1 
+; [0 5] true false 1 
+; [1 4] true false 1 
+; [1 3] true false 2 
+; [0 6] true false 2 
+; [1 3] false false 2 
+; [2 3] true false 3 
+; [0 7] true false 3 
+; [2 2] true false 4 
+; [3 3] true false 4 
+; [1 7] true false 4 
+; [3 2] true false 5 
+; [3 2] false false 5 
+; [2 7] true false 5 
+; [3 1] true false 6 
+; [4 2] true false 6 
+; [2 6] true false 6 
+; [2 1] true false 7 
+; [4 3] true false 7 
+; [1 6] true false 7 
+; [3 6] true false 7 
+; [2 0] true false 8 
+; [1 1] true false 8 
+; [4 4] true false 8 
+; [1 5] true false 8 
+; [3 5] true false 8 
+; [3 0] false true 9 
+; [0 1] false true 9 
+; [4 5] false true 9 
+; [3 4] false true 9 
+; [5 4] false true 9 
+; [2 5] false true 9 
+; [3 4] false true 9 
+; [2 5] false true 9 
+; [4 5] false true 9 
+0
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+; [0 4] true false 0 
+; [0 3] true false 1 
+; [0 5] true false 1 
+; [1 4] true false 1 
+; [1 3] true false 2 
+; [0 6] true false 2 
+; [1 3] false false 2 
+; [2 3] true false 3 
+; [0 7] true false 3 
+; [2 2] true false 4 
+; [3 3] true false 4 
+; [1 7] true false 4 
+; [3 2] true false 5 
+; [3 2] false false 5 
+; [2 7] true false 5 
+; [3 1] true false 6 
+; [4 2] true false 6 
+; [2 6] true false 6 
+; [2 1] true false 7 
+; [4 3] true false 7 
+; [1 6] true false 7 
+; [3 6] true false 7 
+; [2 0] true false 8 
+; [1 1] true false 8 
+; [4 4] true false 8 
+; [1 5] true false 8 
+; [3 5] true false 8 
+; [3 0] false true 9 
+; [0 1] false true 9 
+; [4 5] false true 9 
+; [3 4] false true 9 
+; [5 4] false true 9 
+; [2 5] false true 9 
+; [3 4] false true 9 
+; [2 5] false true 9 
+; [4 5] false true 9 
+9
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+[0 2] true false 0 
+[0 3] true false 1 
+[1 2] true false 1 
+[1 3] true false 2 
+[1 3] false false 2 
+[2 3] true false 3 
+[2 2] true false 4 
+[3 3] true false 4 
+[3 2] true false 5 
+[3 2] false false 5 
+[3 1] true false 6 
+[4 2] true false 6 
+[2 1] true false 7 
+[4 3] true false 7 
+[2 0] true false 8 
+[1 1] true false 8 
+[4 4] true false 8 
+[3 0] false true 9 
+[0 1] false true 9 
+[4 5] false true 9 
+[3 4] false true 9 
+[5 4] false true 9 
+[0 4] true false 0 
+[0 3] true false 1 
+[0 5] true false 1 
+[1 4] true false 1 
+[1 3] true false 2 
+[0 6] true false 2 
+[1 3] false false 2 
+[2 3] true false 3 
+[0 7] true false 3 
+[2 2] true false 4 
+[3 3] true false 4 
+[1 7] true false 4 
+[3 2] true false 5 
+[3 2] false false 5 
+[2 7] true false 5 
+[3 1] true false 6 
+[4 2] true false 6 
+[2 6] true false 6 
+[2 1] true false 7 
+[4 3] true false 7 
+[1 6] true false 7 
+[3 6] true false 7 
+[2 0] true false 8 
+[1 1] true false 8 
+[4 4] true false 8 
+[1 5] true false 8 
+[3 5] true false 8 
+[3 0] false true 9 
+[0 1] false true 9 
+[4 5] false true 9 
+[3 4] false true 9 
+[5 4] false true 9 
+[2 5] false true 9 
+[3 4] false true 9 
+[2 5] false true 9 
+[4 5] false true 9 
+(5 6[2 4] true false 0 
+[1 4] true false 1 
+[1 3] true false 2 
+[2 3] true false 3 
+[2 2] true false 4 
+[3 3] true false 4 
+[3 2] true false 5 
+[3 2] false false 5 
+[3 1] true false 6 
+[4 2] true false 6 
+[2 1] true false 7 
+[4 3] true false 7 
+[2 0] true false 8 
+[1 1] true false 8 
+[4 4] true false 8 
+[3 0] false true 9 
+[0 1] false true 9 
+[4 5] false true 9 
+[3 4] false true 9 
+[5 4] false true 9 
+ 5[4 6] true false 0 
+[5 6] true false 1 
+[5 7] true false 2 
+[4 7] true false 3 
+[3 7] true false 4 
+[2 7] true false 5 
+[2 6] true false 6 
+[1 6] true false 7 
+[3 6] true false 7 
+[1 5] true false 8 
+[3 5] true false 8 
+[2 5] false true 9 
+[3 4] false true 9 
+[2 5] false true 9 
+[4 5] false true 9 
+ 3[5 2] true false 0 
+[5 3] true false 1 
+[6 3] true false 2 
+[6 2] true false 3 
+[7 2] true false 4 
+[7 3] true false 5 
+[7 4] true false 6 
+[7 5] true false 7 
+[6 5] true false 8 
+[6 4] false true 9 
+[5 5] true false 0 
+[5 6] true false 1 
+[5 7] true false 2 
+[4 7] true false 3 
+[3 7] true false 4 
+[2 7] true false 5 
+[2 6] true false 6 
+[1 6] true false 7 
+[3 6] true false 7 
+[1 5] true false 8 
+[3 5] true false 8 
+[2 5] false true 9 
+[3 4] false true 9 
+[2 5] false true 9 
+[4 5] false true 9 
+ 1 3[6 0] true false 0 
+[6 1] true false 1 
+[7 0] true false 1 
+[5 1] true false 2 
+[5 0] true false 3 
+[4 0] true false 4 
+[4 1] true false 5 
+[4 2] true false 6 
+[3 1] true false 6 
+[4 3] true false 7 
+[2 1] true false 7 
+[4 4] true false 8 
+[2 0] true false 8 
+[1 1] true false 8 
+[4 5] false true 9 
+[3 4] false true 9 
+[5 4] false true 9 
+[3 0] false true 9 
+[0 1] false true 9 
+[6 6] true false 0 
+[6 7] true false 1 
+[5 6] true false 1 
+[5 7] true false 2 
+[7 7] true false 2 
+[5 7] false false 2 
+[4 7] true false 3 
+[7 6] true false 3 
+[3 7] true false 4 
+[2 7] true false 5 
+[2 6] true false 6 
+[1 6] true false 7 
+[3 6] true false 7 
+[1 5] true false 8 
+[3 5] true false 8 
+[2 5] false true 9 
+[3 4] false true 9 
+[2 5] false true 9 
+[4 5] false true 9 
+ 5 3[7 1] true false 0 
+[7 0] true false 1 
+[6 1] true false 1 
+[5 1] true false 2 
+[5 0] true false 3 
+[4 0] true false 4 
+[4 1] true false 5 
+[4 2] true false 6 
+[3 1] true false 6 
+[4 3] true false 7 
+[2 1] true false 7 
+[4 4] true false 8 
+[2 0] true false 8 
+[1 1] true false 8 
+[4 5] false true 9 
+[3 4] false true 9 
+[5 4] false true 9 
+[3 0] false true 9 
+[0 1] false true 9 
+ 5)
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+(5 6 5 3 1 3 5 3 5)
+clj꞉user꞉> 
+36
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+([0 2] [0 4] [2 4] [4 6] [5 2] [5 5] [6 0] [6 6] [7 1])
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+([0 6]
+ [0 10]
+ [0 18]
+ [0 24]
+ [0 30]
+ [1 0]
+ [1 1]
+ [1 19]
+ [1 26]
+ [1 31]
+ [2 40]
+ [3 2]
+ [3 9]
+ [3 11]
+ [3 12]
+ [3 16]
+ [3 27]
+ [3 35]
+ [4 10]
+ [4 17]
+ [4 23]
+ [4 40]
+ [4 44]
+ [5 41]
+ [6 10]
+ [6 13]
+ [6 15]
+ [6 34]
+ [7 3]
+ [7 4]
+ [7 22]
+ [7 23]
+ [7 25]
+ [7 36]
+ [7 43]
+ [8 1]
+ [8 12]
+ [8 27]
+ [8 29]
+ [8 32]
+ [8 41]
+ [9 9]
+ [9 29]
+ [9 33]
+ [9 38]
+ [10 10]
+ [10 16]
+ [10 27]
+ [10 43]
+ [11 0]
+ ...)
+clj꞉user꞉> 
+#'user/starts
+clj꞉user꞉> 
+517
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+#'user/available_paths2
+clj꞉user꞉> 
+1
+clj꞉user꞉> 
+#'user/available_paths
+clj꞉user꞉> 
+(1 1 3 2 2 2 1 3 2 4 4 2 1 1 2 4 1 6 1 4 4 4 3 2 2 3 3 2 1 1 2 2 2 2 2 2 3 1 2 2 1 4 1 4 2 3 3 1 1 2 ...)
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/starts
+clj꞉user꞉> 
+24
+clj꞉user꞉> 
+20
+clj꞉user꞉> 
+10
+clj꞉user꞉> 
+4
+clj꞉user꞉> 
+81
+clj꞉user꞉> 
+81
+clj꞉user꞉> 
+#'user/input_string
+clj꞉user꞉> 
+#'user/grid
+clj꞉user꞉> 
+#'user/available_paths2
+clj꞉user꞉> 
+19
+clj꞉user꞉> 
+#'user/starts
+clj꞉user꞉> 
+1116
+clj꞉user꞉> 
