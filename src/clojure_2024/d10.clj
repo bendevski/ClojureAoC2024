@@ -1,5 +1,5 @@
 (require '[clojure.string :as str] )
-(def input_string (slurp "d10.txt"))
+(def input_string (slurp "d10f.txt"))
 (defn process_input [unprocessed_input] 
   (let [lines (str/split unprocessed_input #"\n")
         processed (map #(str/split % #"") lines)
@@ -28,16 +28,31 @@
         output (filter #(valid_point % cur_value grid) [left, right, up, down])]
    (vec output)))
 (defn available_paths [grid point]
-  (loop [queue (conj clojure.lang.PersistentQueue/EMPTY point) grid grid vis {}]
+  (loop [acc 0 queue (conj clojure.lang.PersistentQueue/EMPTY point) grid grid vis #{}]
     (let [cur (peek queue)
-          next_q (pop queue)
-          
-          ])
-    ))
-(def test_grid [["1"] ["2"] ["3"]])
-(valid_points [0,0] test_grid)
-(def q (conj clojure.lang.PersistentQueue/EMPTY 0))
-(pop q)
-(first q)
-(count (first test_grid))
-(>= 1 0)
+          popped (pop queue)
+          visited? (contains? vis cur)
+          done? (= (Integer/parseInt (get-in grid cur)) 9)
+          process? (not (or visited? done?))
+          next_acc (if (and (not visited?) done?) (inc acc) acc)
+          new_vis (if (not visited?) (conj vis cur) vis)
+          next_q (if process? (apply conj popped (valid_points cur grid)) popped)]
+      (if (empty? next_q) next_acc (recur next_acc next_q grid new_vis)))))
+
+(def starts (get_starts grid))
+(available_paths grid (first starts))
+(map #(available_paths grid %) starts)
+(reduce + (map #(available_paths grid %) starts))
+;; Part 2
+
+(defn available_paths2 [grid point]
+  (loop [acc 0 queue (conj clojure.lang.PersistentQueue/EMPTY point) grid grid]
+    (let [cur (peek queue)
+          popped (pop queue)
+          done? (= (Integer/parseInt (get-in grid cur)) 9)
+          next_acc (if done? (inc acc) acc)
+          next_q (apply conj popped (valid_points cur grid))]
+      (if (empty? next_q) next_acc (recur next_acc next_q grid)))))
+
+(reduce + (map #(available_paths2 grid %) starts))
+
